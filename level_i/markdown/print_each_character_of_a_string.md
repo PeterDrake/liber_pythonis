@@ -23,7 +23,7 @@ u
 s
 ```
 
-Think of the spell as: "For each character `c` in the text string `'hocus pocus'`, print that character."
+Think of the spell as: "For each character in the text string `'hocus pocus'`, print that character."
 The printing happens inside a loop that runs once for each character.
 
 ## Imps
