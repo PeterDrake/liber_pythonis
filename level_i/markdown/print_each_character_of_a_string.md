@@ -43,3 +43,11 @@ SyntaxError: invalid syntax
 ```
 
 You forgot the quotation marks around the text.
+
+```
+    for c in 'hocus pocus'
+                         ^
+SyntaxError: invalid syntax
+```
+
+You forgot the colon at the end of this line.
