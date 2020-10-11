@@ -1,2 +1,2 @@
-for c in 'hocus pocus'
+for c in 'hocus pocus':
     print(c)

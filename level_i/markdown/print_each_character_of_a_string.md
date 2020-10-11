@@ -29,14 +29,6 @@ The printing happens inside a loop that runs once for each character.
 ## Imps
 
 ```
-    print(c)
-    ^
-IndentationError: expected an indented block
-```
-
-You forgot to indent the second line. You have to do this so that Python knows it's inside the loop.
-
-```
     for c in hocus pocus:
                    ^
 SyntaxError: invalid syntax
@@ -51,3 +43,11 @@ SyntaxError: invalid syntax
 ```
 
 You forgot the colon at the end of this line.
+
+```
+    print(c)
+    ^
+IndentationError: expected an indented block
+```
+
+You forgot to indent the second line. You have to do this so that Python knows it's inside the loop.
