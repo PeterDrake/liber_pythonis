@@ -1,13 +1,13 @@
 # Spell: Print Each Character of a String
 
-To print each character from a string of text on its own line:
+## Incantation
 
 ```python
 for c in 'hocus pocus':
     print(c)
 ```
 
-This prints:
+## Effect
 
 ```
 h
@@ -23,10 +23,14 @@ u
 s
 ```
 
+## Explanation
+
 Think of the spell as: "For each character in the text string `'hocus pocus'`, print that character."
 The printing happens inside a loop that runs once for each character.
 
 ## Imps
+
+### Missing Quotation Marks
 
 ```
     for c in hocus pocus:
@@ -36,6 +40,7 @@ SyntaxError: invalid syntax
 
 You forgot the quotation marks around the text.
 
+### Missing Colon
 ```
     for c in 'hocus pocus'
                          ^
@@ -43,6 +48,8 @@ SyntaxError: invalid syntax
 ```
 
 You forgot the colon at the end of this line.
+
+### Indentation
 
 ```
     print(c)
