@@ -42,7 +42,7 @@ The last line prints the value of `length`.
 11
 ```
 
-You indented the last line is to match the previous line, which puts
+You indented the last line is to match the previous line, which put
 it inside the loop:
 
 ```python
@@ -52,5 +52,5 @@ for c in 'abracadabra':
     print(length)
 ```
 
-This causes `length` to be printed after each character, rather than just once at the
+This caused `length` to be printed after each character, rather than just once at the
 end.

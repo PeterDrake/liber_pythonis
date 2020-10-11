@@ -25,7 +25,7 @@ s
 
 ## Explanation
 
-Think of the spell as: "For each character in the text string `'hocus pocus'`, print that character."
+Think of the spell as: "For each character in the string `'hocus pocus'`, print that character."
 The printing happens inside a loop that runs once for each character.
 
 ## Imps
