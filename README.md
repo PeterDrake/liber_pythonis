@@ -24,6 +24,6 @@ We use the following terminology:
 
 # Contents
 
-Level I: Strings
-Level II: Lists
-Level III: Nesting
+-Level I: Strings
+-Level II: Lists
+-Level III: Nesting
