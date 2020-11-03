@@ -47,5 +47,4 @@ The variable has to be on the left side.
 store `3` in the chest labeled `x`. The variable has to be on the left side.
 
 When the imp uses the word *literal*, it is referring to `3`, which is literally the
-number 3, rather than being a name for something. Variable names can contain digits,
-but can't start with digits.
+number 3, rather than being a name for something.
