@@ -7,7 +7,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 # Contents
 
-[Level I: Strings](i_strings.md)
+[Level I: Strings](level_i.md)
 
 Level II: Lists
 
