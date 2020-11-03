@@ -38,6 +38,16 @@ for c in 'Invisibility':
 
 Python does not consider the lower-case `'i'` and the upper-case `'I'` to be the same character.
 
+### Equality
+
+```
+    if c = 'i':
+         ^
+SyntaxError: invalid syntax
+```
+
+You used `=`, which assigns a value to a variable, rather than `==`, which checks whether two things are equal.
+
 ### Indentation
 
 ```
