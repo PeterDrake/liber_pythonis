@@ -1,21 +1,23 @@
-# Spell: Reverse String
+# Spell: Detect Palindrome
 
 ## Incantation
 
 ```python
-original = 'mxyzptlk'
+original = 'level'
 reversed = ''
 for c in original:
     reversed = c + reversed
-print(reversed)
+print(original == reversed)
 ```
 
 ## Effect
 
 ```
-kltpzyxm
+True
 ```
 
 ## Explanation
 
 The string `reversed` is initially empty. Each character from `original` is added to the beginning of it.
+
+The last line prints `True` if `original` and `reversed` are the same, `False` otherwise.

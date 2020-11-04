@@ -1,5 +1,5 @@
-original = 'mxyzptlk'
+original = 'level'
 reversed = ''
 for c in original:
     reversed = c + reversed
-print(reversed)
+print(original == reversed)
