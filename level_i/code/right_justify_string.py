@@ -1,7 +1,7 @@
 familiar = 'rabbit'
 width = len(familiar)
-result = '<'
+spaces = ''
 for i in range(10 - width):
-    result = result + ' '
-result = result + familiar + '>'
+    spaces = spaces + ' '
+result = '<' + spaces + familiar + '>'
 print(result)
