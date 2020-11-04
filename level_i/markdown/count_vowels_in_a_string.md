@@ -5,7 +5,15 @@
 ```python
 count = 0
 for c in 'the council of wizards':
-    if c in 'aeiou':
+    if c == 'a':
+        count = count + 1
+    if c == 'e':
+        count = count + 1
+    if c == 'i':
+        count = count + 1
+    if c == 'o':
+        count = count + 1
+    if c == 'u':
         count = count + 1
 print(count)
 ```
@@ -13,10 +21,36 @@ print(count)
 ## Effect
 
 ```
-5
+7
 ```
 
 ## Explanation
 
 This is very similar to the spell [Count Occurrences of a Character in a String](count_occurrences_of_a_character_in_a_string.md).
-The difference is that, rather than checking whether `c` is `'i'`, you check whether it occurs in the string `'aeiou'`.
+The difference is that `c` is compared against each of several different letters.
+
+## Imps
+
+### Copy Paste
+
+```
+5
+```
+
+To avoid typing the if statement five times, you copied and pasted -- but then forgot to change the letters:
+
+```python
+count = 0
+for c in 'the council of wizards':
+    if c == 'a':
+        count = count + 1
+    if c == 'a':  # Oops!
+        count = count + 1
+    if c == 'a':
+        count = count + 1
+    if c == 'a':
+        count = count + 1
+    if c == 'a':
+        count = count + 1
+print(count)
+```

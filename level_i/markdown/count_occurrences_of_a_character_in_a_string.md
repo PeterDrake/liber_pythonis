@@ -56,5 +56,15 @@ You used `=`, which assigns a value to a variable, rather than `==`, which check
 IndentationError: expected an indented block
 ```
 
-This line is not indented properly. It must be indented even further than the line that starts with `if` to show that
+This line is not indented properly:
+
+```python
+count = 0
+for c in 'invisibility':
+    if c == 'i':
+    count = count + 1
+print(count)
+```
+
+It must be indented even further than the line that starts with `if` to show that
 it is inside the if statement.
