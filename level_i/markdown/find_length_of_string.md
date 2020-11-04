@@ -1,4 +1,4 @@
-# Spell: Find Length of a String
+# Spell: Find Length of String
 
 ## Incantation
 

@@ -18,7 +18,7 @@ print(count)
 
 ## Explanation
 
-This is very similar to the spell [Find Length of a String](find_length_of_a_string.md), but `count` is only increased
+This is very similar to the spell [Find Length of a String](find_length_of_string.md), but `count` is only increased
 if the current character is an `'i'`. The variable `c` is `'i'` on the first pass through the loop, `'n'` on the second
 pass, `'v'` on the third pass, and so on.
 

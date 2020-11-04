@@ -26,7 +26,7 @@ print(count)
 
 ## Explanation
 
-This is very similar to the spell [Count Occurrences of a Character in a String](count_occurrences_of_a_character_in_a_string.md).
+This is very similar to the spell [Count Occurrences of a Character in a String](count_occurrences_of_character_in_string.md).
 The difference is that `c` is compared against each of several different letters.
 
 ## Imps
