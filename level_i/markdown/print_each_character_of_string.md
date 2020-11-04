@@ -1,4 +1,4 @@
-# Spell: Print Each Character of a String
+# Spell: Print Each Character of String
 
 ## Incantation
 

@@ -1,4 +1,4 @@
-# Spell: Count Occurrences of a Character in a String
+# Spell: Count Occurrences of Character in String
 
 ## Incantation
 

@@ -1,4 +1,4 @@
-# Spell: Count Vowels in a String
+# Spell: Count Vowels in String
 
 ## Incantation
 
