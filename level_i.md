@@ -9,3 +9,4 @@
 * [Spell: Print First Ten Numbers](level_i/markdown/print_first_ten_numbers.md)
 * [Scroll: `len`](level_i/markdown/len.md)
 * [Spell: Right Justify String](level_i/markdown/right_justify_string.md)
+* [Quests](level_i/markdown/quests.md)
