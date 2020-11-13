@@ -11,7 +11,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 [Level I: Strings](level_i.md)
 
-Level II: Lists
+[Level II: Lists](level_ii.md)
 
 Level III: Nesting
 
