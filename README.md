@@ -35,9 +35,10 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 * Spells
     * Palindrome
-    * ASCII Graph
     * Squares (table of values)
-    * Dice Probabilities
+    * 1d6
+    * 2d6
+    * ASCII Graph
     * Sample
 * Components
     * String
@@ -48,6 +49,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * random
 * Quests
     * Cubes
+    * 3d6
     * Polyhedral Dice
     * Sample vs Population Mean
 * Lore
