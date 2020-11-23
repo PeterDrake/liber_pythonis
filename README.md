@@ -34,10 +34,10 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 ### Level II
 
 * Spells
-    * Palindrome
     * Squares (table of values)
     * 1d6
     * 2d6
+    * Palindrome
     * ASCII Graph
     * Sample
 * Components
