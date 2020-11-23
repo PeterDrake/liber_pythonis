@@ -1,6 +1,6 @@
 # Spell: Find Mean of List of Numbers
 
-## Incanation
+## Incantation
 
 ```python
 numbers = [1, 3, 2, 3, 4]
