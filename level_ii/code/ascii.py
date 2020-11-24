@@ -8,7 +8,7 @@ for i in range(1, 501):
     sum = roll1 + roll2
     counts[sum] += 1
 
-# Display results
+# Display result
 for i in range(2, 13):
     stars = '*' * counts[i]
     if i < 10:
