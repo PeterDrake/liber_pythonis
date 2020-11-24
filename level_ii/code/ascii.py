@@ -10,4 +10,8 @@ for i in range(1, 501):
 
 # Display results
 for i in range(2, 13):
-    print(str(i) + ': ' + str(counts[i]))
+    stars = '*' * counts[i]
+    if i < 10:
+        print(' ' + str(i) + ': ' + stars)
+    else:
+        print(str(i) + ': ' + stars)

@@ -38,7 +38,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Squares (table of values)
     * 1d6
     * 2d6
-    * ASCII Graph
+    * ASCII Bar Graph
     * Sample
 * Components
     * String
