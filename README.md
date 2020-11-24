@@ -60,10 +60,10 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 ### Level III
 
 * Spells
-    * Skewed Distribution (I think min of 3 dice will do this)
     * Mode
     * Sort
     * Median
+    * Skewed Distribution (I think min of 3 dice will do this)
     * First Quartile
     * Standard Deviation
 * Components
