@@ -1,8 +1,8 @@
 numbers = [4, 2, 8, 5, 6]
 
 # Sort the list of numbers
-sorted = []
-for i in range(0, len(numbers)):
+n = len(numbers)
+for i in range(1, n):
     # Find index of smallest remaining number
     min_index = 0
     for j in range(1, len(numbers)):
