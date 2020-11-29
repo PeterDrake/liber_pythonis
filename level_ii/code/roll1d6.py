@@ -1,11 +1,6 @@
 import random
-
-# Roll dice
-counts = [0, 0, 0, 0, 0, 0, 0]
-for i in range(1, 501):
+rolls = []
+for i in range(1, 21):
     roll = random.randrange(1, 7)
-    counts[roll] = counts[roll] + 1
-
-# Display result
-for i in range(1, 7):
-    print(str(i) + ': ' + str(counts[i]))
+    rolls = rolls + [roll]
+print(rolls)
