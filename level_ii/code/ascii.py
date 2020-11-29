@@ -1,17 +1,9 @@
-import random
-
-labels = ['water', 'earth', 'fire', 'air']
-values = [9, 2, 5, 4]
-
-# Find length of longest label
-max_length = 0
-for label in labels:
-    if len(label) > max_length:
-        max_length = len(label)
-
-# Display plot
-for i in range(len(labels)):
-    padding = ' ' * (max_length - len(labels[i]))
+values = [9, 2, 5, 6, 0, 3, 1, 8, 7, 4, 2]
+for i in range(len(values)):
+    if i < 10:
+        padding = ' '
+    else:
+        padding = ''
     stars = '*' * values[i]
-    print(padding + labels[i] + ': ' + stars)
+    print(padding + str(i) + ': ' + stars)
 
