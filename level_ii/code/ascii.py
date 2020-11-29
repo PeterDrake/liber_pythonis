@@ -1,17 +1,17 @@
 import random
 
-# Roll dice
-counts = [0] * 13
-for i in range(1, 501):
-    roll1 = random.randrange(1, 7)
-    roll2 = random.randrange(1, 7)
-    sum = roll1 + roll2
-    counts[sum] += 1
+labels = ['water', 'earth', 'fire', 'air']
+values = [9, 2, 5, 4]
 
-# Display result
-for i in range(2, 13):
-    stars = '*' * counts[i]
-    if i < 10:
-        print(' ' + str(i) + ': ' + stars)
-    else:
-        print(str(i) + ': ' + stars)
+# Find length of longest label
+max_length = 0
+for label in labels:
+    if len(label) > max_length:
+        max_length = len(label)
+
+# Display plot
+for i in range(len(labels)):
+    padding = ' ' * (max_length - len(labels[i]))
+    stars = '*' * values[i]
+    print(padding + labels[i] + ': ' + stars)
+

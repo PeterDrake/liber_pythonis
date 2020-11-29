@@ -49,7 +49,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * random
 * Quests
     * Cubes
-    * 3d6
+    * 3d6 by Simulation
     * Polyhedral Dice
     * Sample vs Population Mean
 * Lore
@@ -69,6 +69,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * Components
 * Tomes
 * Quests
+    * 3d6 by Enumeration
     * Non-Destructive Sort
     * Third Quartile
 * Lore
