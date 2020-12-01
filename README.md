@@ -19,10 +19,13 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Count
     * Max
 * Components
-    * Variable
+    * Variable assignment `=`
+    * Arithmetic operators `+` `-` `*` `/`
     * List
-    * for
-    * if
+    * `for`
+    * `if`
+    * Equality test `==`
+    * List indexing `[]`
 * Quests
     * Min
     * Proportion
