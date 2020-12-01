@@ -19,13 +19,14 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Count
     * Max
 * Components
-    * Variable assignment `=`
-    * Arithmetic operators `+` `-` `*` `/`
-    * List
+    * Variable Assignment `=`
+    * Arithmetic Operators `+` `-` `*` `/`
+    * List `[]`
     * `for`
     * `if`
-    * Equality test `==`
-    * List indexing `[]`
+    * Boolean Operators `<` `<=` `==` `>=` `>`
+* Scrolls
+    * `print`
 * Quests
     * Min
     * Proportion
@@ -38,18 +39,26 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 * Spells
     * Palindrome
-    * Squares (table of values)
+    * Squares
     * 1d6
     * 2d6
     * ASCII Bar Graph
     * Sample
 * Components
     * String
-    * +=
-    * Sequence Operations (+, *, len)
-    * range
+    * `+=`
+    * Sequence Operators `+` `*`
+* Scrolls
+    * `len`
+    * `max`
+    * `range`
+    * `str`
+* Artifacts
+    * `list`
+        * `count`
 * Tomes
-    * random
+    * `random`
+        * `randrange`
 * Quests
     * Cubes
     * 3d6 by Simulation
