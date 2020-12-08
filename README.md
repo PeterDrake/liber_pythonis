@@ -97,6 +97,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Box Plot
     * Confidence Interval for Proportion
 * Components
+    * List Comprehensions
 * Tomes
     * matplotlib
 * Quests
