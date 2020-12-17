@@ -21,7 +21,7 @@ to think of mean / median / mode as balance point / middle dot / tallest tower?)
 * `len`
 * `sum`
 * Mean
-* `max`
+* `max`  
 * `min`
 * List Comprehension
 * Equality Test `==`
