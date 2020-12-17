@@ -1,6 +1,6 @@
-votes = [1, 2, 2, 1, 3, 1, 1, 2]
-votes_for_1 = 0
-for v in votes:
-    if v == 1:
-        votes_for_1 = votes_for_1 + 1
-print(votes_for_1)
+numbers = [1, 3, 2, 1, 2, 1, 1, 3, 2, 1]
+
+just_1s = [n for n in numbers if n == 1]
+count = len(just_1s)
+
+print(count)

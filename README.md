@@ -11,29 +11,35 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 ### Level I
 
-* Spells
-    * Add
-    * Length
-    * Sum
-    * Mean
-    * Count
-    * Max
-* Components
-    * Variable Assignment `=`
-    * Arithmetic Operators `+` `-` `*` `/`
-    * List `[]`
-    * `for`
-    * `if`
-    * Boolean Operators `<` `<=` `==` `>=` `>`
-* Scrolls
-    * `print`
-* Quests
-    * Min
-    * Proportion
+(Maybe save the list comprehension for level 2? If we could do a dot plot here, it is useful
+to think of mean / median / mode as balance point / middle dot / tallest tower?)
+
+* The Interactive Console
+* Arithmetic Operators `+` `-` `*` `/`
+* Variable Assignment `=`
+* List `[]`
+* `len`
+* `sum`
+* Mean
+* `max`
+* `min`
+* List Comprehension
+* Equality Test `==`
+* Count
+* `sorted`
+* Integer Division `//` `%`
+* List Index
+* Median
+* Mode `max(ls, key=ls.count)`
 * Lore
-    * Mean
     * Proportion
-    * Reading Graphs
+    * Mean
+    * Median
+    * Mode
+* Quests
+    * Proportion
+    * Median for Even Number of Values
+
     
 ### Level II
 
