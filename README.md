@@ -9,122 +9,99 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 ## Contents
 
-### Level I
-
-(Maybe save the list comprehension for level 2? If we could do a dot plot here, it is useful
-to think of mean / median / mode as balance point / middle dot / tallest tower?)
+### Level I: Measures of Central Tendency
 
 * The Interactive Console
-* Arithmetic Operators `+` `-` `*` `/`
-* Variable Assignment `=`
+* Arithmetic Operators `+` `-` `*` `/` `**`
+* Defining a Variable `=`
 * List `[]`
+* String `''` `""`
 * `len`
 * `sum`
 * Mean
-* `max`  
+* Python Programs
+* `print`
+* Defining a Function `def` (defining `mean`)
+* `max`
 * `min`
 * List Comprehension
 * Equality Test `==`
 * Count
 * `sorted`
+* Sort Strings by Length (introducing `key=` for `sorted`)
 * Integer Division `//` `%`
 * List Index
+* `if`
 * Median
-* Mode `max(ls, key=ls.count)`
+* Mode
+* Dot Plot
 * Lore
-    * Proportion
     * Mean
     * Median
     * Mode
+    * Proportion
 * Quests
     * Proportion
-    * Median for Even Number of Values
-
+    * Explore Mean, Median, and Mode in Dot Plot
     
-### Level II
+### Level II: Populations and Samples
 
-* Spells
-    * Palindrome
-    * Squares
-    * 1d6
-    * 2d6
-    * ASCII Bar Graph
-    * Sample
-* Components
-    * String
-    * `+=`
-    * Sequence Operators `+` `*`
-* Scrolls
-    * `len`
-    * `max`
-    * `range`
-    * `str`
-* Artifacts
-    * `list`
-        * `count`
-* Tomes
-    * `random`
-        * `randrange`
-* Quests
-    * Cubes
-    * 3d6 by Simulation
-    * Polyhedral Dice
-    * Sample vs Population Mean
+* `range`
+* `import`
+* `random`
+    * `randrange`
+    * `shuffle`
+    * `sample`
+* Polyhedral Die
+* Multiple Dice
+* Visualize Dice Distributions
+* Compare Population to Sample
+    * Visualization
+    * Mean
+* Reading From a CSV File (Using `csv`)
 * Lore
     * Quantitative vs Categorical Variables
     * Populations and Samples
     * Parameters and Statistics
     
-### Level III
+### Level III: Distributions and Measures of Spread
 
-* Spells
-    * Mode
-    * Sort
-    * Median
-    * Skewed Distribution (I think min of 3 dice will do this)
-    * First Quartile
+* Distributions
+    * Uniform (1d10)
+    * Normal (3d10)
+    * Skewed (min of 1d10, 1d10, and 1d10)
+* Measures of Spread
+    * Range (This is unfortunately overloaded with the Python `range` function)
+    * Quartiles
     * Standard Deviation
-* Components
-* Tomes
-* Quests
-    * 3d6 by Enumeration
-    * Non-Destructive Sort
-    * Third Quartile
 * Lore
     * Distributions: Uniform, Normal, and Skewed
     * Measures of Central Tendency
     * Measures of Spread
     * Central Limit Theorem for Proportions
     
-### Level IV
+### Level IV: Data Visualization and Confidence Intervals
 
-* Spells
+* `matplotlib`
+* Data Visualization
+    * Bar Graph
     * Histogram
+    * Line Graph
     * Box Plot
-    * Confidence Interval for Proportion
-* Components
-    * List Comprehensions
-* Tomes
-    * matplotlib
-* Quests
+    * Violin Plot
+    * Decorations
+    * Plotting Multiple Data Sets
+* Confidence Interval for Proportion
 * Lore
     * Data Visualization
     * Confidence Interval
     
-### Level V
+### Level V: Relationships Between Variables
 
-* Spells
-    * Read Data From File
-    * Extract Column
-    * Scatter Plot
-    * Correlation
-    * Regression
-    * Select Rows
-    * Remove Invalid Rows
-* Components
-* Tomes
-    * statistics
-    * pandas
+* Scatter Plot
+* Correlation
+* Regression
+* Data Wrangling
 * Quests
 * Lore
     * Correlation

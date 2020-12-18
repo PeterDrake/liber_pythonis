@@ -21,6 +21,6 @@ def dot_plot(xs):
 
 if __name__ == '__main__':
     import random
-    xs = [x+y+z for x in range(1, 11) for y in range(1, 11) for z in range(1, 11)]
-    dot_plot(xs)
-    # dot_plot([random.randrange(1, 7) + random.randrange(1, 7) + random.randrange(1, 7) for _ in range(300)])
+    # xs = [x+y+z for x in range(1, 11) for y in range(1, 11) for z in range(1, 11)]
+    # dot_plot(xs)
+    dot_plot([random.randrange(1, 7) + random.randrange(1, 7) + random.randrange(1, 7) for _ in range(300)])

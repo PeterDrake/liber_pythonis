@@ -1,5 +1,8 @@
 numbers = [8, 6, 7, 5, 3, 0, 9]
 
-mean = sum(numbers) / len(numbers)
 
-print(mean)
+def mean(ls):
+    return sum(ls) / len(ls)
+
+
+print(mean(numbers))
