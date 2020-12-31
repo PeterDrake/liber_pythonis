@@ -9,22 +9,35 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 ## Contents
 
-### Level I: Measures of Central Tendency
+### Level I: Data Visualization
 
 * The Interactive Console
 * Arithmetic Operators `+` `-` `*` `/` `**`
 * Defining a Variable `=`
+* Python Program
+* `print`
 * List `[]`
 * String `''` `""`
+* `import`
+* `math`
+* `matplotlib`
+    * Time Series
+    * Decorating Graphs
+    * Bar Chart
+    * Scatter Plot
+    * Histogram
+* List Comprehension
+* `range`
+* Lore
+    * Quantitative vs Categorical Variables
+    * Reading Graphs
+
+### Level II: Measures of Central Tendency
+
 * `len`
 * `sum`
 * Mean
-* Python Programs
-* `print`
 * Defining a Function `def` (defining `mean`)
-* `max`
-* `min`
-* List Comprehension
 * Equality Test `==`
 * Count
 * `sorted`
@@ -34,7 +47,8 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * `if`
 * Median
 * Mode
-* Dot Plot
+* Type Conversion `int` `str` `float` `list`
+* Reading Data From a File `csv`
 * Lore
     * Mean
     * Median
@@ -42,12 +56,10 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Proportion
 * Quests
     * Proportion
-    * Explore Mean, Median, and Mode in Dot Plot
-    
-### Level II: Populations and Samples
+    * Explore Mean, Median, and Mode in Histogram
 
-* `range`
-* `import`
+### Level III: Populations and Samples
+
 * `random`
     * `randrange`
     * `shuffle`
@@ -58,13 +70,11 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * Compare Population to Sample
     * Visualization
     * Mean
-* Reading From a CSV File (Using `csv`)
 * Lore
-    * Quantitative vs Categorical Variables
     * Populations and Samples
     * Parameters and Statistics
-    
-### Level III: Distributions and Measures of Spread
+
+### Level IV: Distributions and Measures of Spread
 
 * Distributions
     * Uniform (1d10)
@@ -79,31 +89,20 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Measures of Central Tendency
     * Measures of Spread
     * Central Limit Theorem for Proportions
-    
-### Level IV: Data Visualization and Confidence Intervals
 
-* `matplotlib`
-* Data Visualization
-    * Bar Graph
-    * Histogram
-    * Line Graph
+### Level V: Confidence Intervals and Relationships Between Variables
+
+* More Data Visualization
     * Box Plot
-    * Violin Plot
-    * Decorations
-    * Plotting Multiple Data Sets
+    * Violin Plot?
+    * Plotting Multiple Data Sets (Should this come earlier?)
 * Confidence Interval for Proportion
+* Relationships Between Variables
+    * Correlation
+    * Regression
 * Lore
     * Data Visualization
     * Confidence Interval
-    
-### Level V: Relationships Between Variables
-
-* Scatter Plot
-* Correlation
-* Regression
-* Data Wrangling
-* Quests
-* Lore
     * Correlation
     * Regression
     
