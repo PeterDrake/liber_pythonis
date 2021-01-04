@@ -38,6 +38,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * Defining a Function `def` (defining `mean`)
 * Equality Test `==`
 * Count
+* Frequency Bar Chart
 * `sorted`
 * Sort Strings by Length (introducing `key=` for `sorted`)
 * Integer Division `//` `%`
