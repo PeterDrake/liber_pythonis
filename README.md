@@ -14,7 +14,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * The Interactive Console
 * Arithmetic Operators `+` `-` `*` `/` `**`
 * Defining a Variable `=`
-* Python Program
+* Python Programs
 * `print`
 * List `[]`
 * String `''` `""`
@@ -26,12 +26,10 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Bar Chart
     * Scatter Plot
     * Histogram
-* List Comprehension
-* `range`
 * Lore
     * Quantitative vs Categorical Variables
     * Reading Graphs
-
+    
 ### Level II: Measures of Central Tendency
 
 * `len`
@@ -47,8 +45,6 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * `if`
 * Median
 * Mode
-* Type Conversion `int` `str` `float` `list`
-* Reading Data From a File `csv`
 * Lore
     * Mean
     * Median
@@ -58,54 +54,49 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Proportion
     * Explore Mean, Median, and Mode in Histogram
 
-### Level III: Populations and Samples
+### Level III: Measures of Spread
 
-* `random`
-    * `randrange`
-    * `shuffle`
-    * `sample`
-* Polyhedral Die
-* Multiple Dice
-* Visualize Dice Distributions
-* Compare Population to Sample
-    * Visualization
-    * Mean
-* Lore
-    * Populations and Samples
-    * Parameters and Statistics
-
-### Level IV: Distributions and Measures of Spread
-
-* Distributions
-    * Uniform (1d10)
-    * Normal (3d10)
-    * Skewed (min of 1d10, 1d10, and 1d10)
+* List Comprehension
+* Reading Data From a File `csv`
+* Type Conversion `int` `str` `float` `list`
 * Measures of Spread
     * Range (This is unfortunately overloaded with the Python `range` function)
     * Quartiles
     * Standard Deviation
+* Box Plot
+* Lore
+    * Measures of Spread
+    * Reading Box Plots
+
+### Level IV: Distributions
+
+* Plotting Multiple Data Sets Together
+* Data Wrangling
 * Lore
     * Distributions: Uniform, Normal, and Skewed
-    * Measures of Central Tendency
-    * Measures of Spread
+    
+### Level V: Populations, Samples, and the Central Limit Theorem
+
+* Proportion
+* `random`
+    * `sample`
+* Lore
+    * Populations and Samples
+    * Parameters and Statistics
     * Central Limit Theorem for Proportions
+    * Confidence Interval
 
-### Level V: Confidence Intervals and Relationships Between Variables
+### Level VI: Relationships Between Variables
 
-* More Data Visualization
-    * Box Plot
-    * Violin Plot?
-    * Plotting Multiple Data Sets (Should this come earlier?)
-* Confidence Interval for Proportion
 * Relationships Between Variables
     * Correlation
     * Regression
 * Lore
-    * Data Visualization
-    * Confidence Interval
     * Correlation
     * Regression
-    
+
+
+
 ## Terminology
 
 | Term | Meaning (in computer science terms) |
