@@ -17,7 +17,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [Python Programs](level_i/markdown/program.md)
 * [`print`](level_i/markdown/print.md)
 * [List `[]`](level_i/markdown/list.md)
-* String `''` `""`
+* [String `''` `""`](level_i/markdown/string.md)
 * `import`
 * `math`
 * `matplotlib`
