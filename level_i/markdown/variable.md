@@ -18,7 +18,12 @@ get back `3`.
    age = 18
    age + 3
    ```
-   
+
+   ```python
+   f = 212
+   (f - 32) * 5/9
+   ```
+      
    ```python
    ultimate_answer = 42
    ultimate_answer
