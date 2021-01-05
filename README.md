@@ -27,7 +27,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Scatter Plot
     * Histogram
 * Lore
-    * Quantitative vs Categorical Variables
+    * [Quantitative vs Categorical Variables](level_i/markdown/quant_cat.md)
     * Reading Graphs
     
 ### Level II: Measures of Central Tendency
