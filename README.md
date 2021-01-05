@@ -11,9 +11,9 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 
 ### Level I: Data Visualization
 
-* The Interactive Console
-* Arithmetic Operators `+` `-` `*` `/` `**`
-* Defining a Variable `=`
+* [The Interactive Console](level_i/markdown/console.md)
+* [Arithmetic Operators `+` `-` `*` `/` `**`](level_i/markdown/arithmetic.md)
+* [Defining a Variable `=`](level_i/markdown/variable.md)
 * Python Programs
 * `print`
 * List `[]`
