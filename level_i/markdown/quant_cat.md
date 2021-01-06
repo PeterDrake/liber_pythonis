@@ -1,4 +1,4 @@
-In statistics we study the characteristics of some sort of object.  Statisticians call the objects that we study **units** or **observational units**.  The characteristics of those objects that we study are called **variables**.
+In statistics we study the characteristics of some sort of object.  Statisticians call the objects that we study *units* or **observational units**.  The characteristics of those objects that we study are called ***variables***.
 
 Examples: 
 - A teacher asks each student in their class what their favorite color is.  The observational unit is a student in the class, and the variable is the student's favorite color.
