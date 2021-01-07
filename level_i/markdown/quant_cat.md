@@ -3,7 +3,7 @@
 In statistics we study the characteristics of some sort of object.  Statisticians call the objects that we study ***units*** or ***observational units***.  The characteristics of the objects that we study are called ***variables***.
 
 Examples: 
-- A teacher asks each student in a class what their favorite ice cream flavor is.  The ***observational unit*** is a student in the class, and the ***variable*** is the student's favorite color.
+- A teacher asks each student in a class what their favorite ice cream flavor is.  The ***observational unit*** is a student in the class, and the ***variable*** is the student's favorite ice cream flavor.
 - A pediatrician measures the weights of all of their patients.  The ***observational unit*** is the patient, and the ***variable*** is their weight.
 
 Variables are classified into different types.  We'll focus on two types of variables in this class:  
