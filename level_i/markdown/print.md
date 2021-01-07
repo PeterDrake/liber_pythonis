@@ -13,8 +13,8 @@ km = miles * 1.6
 print(km)
 ```
 
-The last line here calls the `print` function. The value between the parentheses is called an argument to the function.
-In this case, the argument tells the function what to print.
+The last line here calls the `print` ***function***. The value between the parentheses is called an ***argument*** to
+the function. In this case, the argument tells the function what to print.
 
 If you run this program, it will print `16.0` in the interactive console.
 

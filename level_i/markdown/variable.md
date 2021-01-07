@@ -1,6 +1,6 @@
 # Defining a Variable
 
-Typing in numbers can be tedious and error-prone, so Python allows you to define variables:
+Typing in numbers can be tedious and error-prone, so Python allows you to define ***variables***:
 
 ```python
 x = 3

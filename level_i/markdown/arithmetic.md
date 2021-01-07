@@ -1,7 +1,7 @@
 # Arithmetic Operators
 
 The interactive console can be used as a calculator. You can combine numbers with the following
-arithmetic operators:
+arithmetic ***operators***:
 
 | Operator | Meaning |
 | --- | --- |

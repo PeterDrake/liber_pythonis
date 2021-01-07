@@ -18,8 +18,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [`print`](level_i/markdown/print.md)
 * [List `[]`](level_i/markdown/list.md)
 * [String `''` `""`](level_i/markdown/string.md)
-* `import`
-* `math`
+* [`math`](level_i/markdown/math.md)
 * `matplotlib`
     * Time Series
     * Decorating Graphs

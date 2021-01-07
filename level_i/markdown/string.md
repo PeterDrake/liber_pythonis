@@ -1,12 +1,12 @@
 # String
 
-Another data type, in addition to numbers and lists, is the text string:
+Another data type, in addition to numbers and lists, is the text ***string***:
 
 ```python
 'Hello!'
 ```
 
-A list is a sequence of values of any type, but a string is specifically a list of characters.
+A list is a sequence of values of any type, but a string is specifically a sequence of characters.
 
 ## Explorations
 
@@ -46,3 +46,4 @@ A list is a sequence of values of any type, but a string is specifically a list 
    'na' * 16 + ' Batman!'
    ```
 1. If you define `x = 3`, what is the value of `x`? What is the value of `'x'`?
+1. Can you make a list of strings?
