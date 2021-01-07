@@ -1,7 +1,8 @@
 # `matplotlib.pyplot`
 
-The `matplotlib.pyplot` library provides you with enormous power for drawing graphs to visualize data. Because
-its name is so long, it is traditional to give it the nickname `plt` when importing it:
+The `matplotlib.pyplot` library provides you with enormous power for drawing graphs to visualize data. It has
+a very long name because `matplotlib` has many pieces; we only need one of them. The long name would be
+unwieldy, so it is traditional to give it the nickname `plt` when importing it:
 
 ```python
 import matplotlib.pyplot as plt
@@ -10,8 +11,8 @@ import matplotlib.pyplot as plt
 A program to draw a graph generally has the following parts:
 
 1. `import matplotlib.pyplot as plt`
-1. Prepare data
-1. Plot data
+1. Prepare the data
+1. Create the graph
 1. Decorate the graph
 1. Display the graph
 
@@ -34,10 +35,10 @@ Here is the graph produced:
 This depends heavily on the data you're working with. You will often spend almost all of your time writing this part.
 For early examples, we will use simple lists.
 
-## Plotting the data
+## Creating the graph
 
 This depends on the type of graph you're trying to produce. Each type is described in a separate page of the *Liber
-Pythonis*.
+Pythonis*. The graph is not actually displayed until the final step.
 
 ## Decorating the graph
 
@@ -62,3 +63,7 @@ There are two ways to do this:
 `plt.savefig('filename.png', bbox_inches='tight')` saves the graph in a file called `filename.png`. Of course, you can
 change the name of the file. The named argument `bbox_inches='tight'` prevents the saved image from either cutting
 off part of the graph or leaving excess white space around it.
+
+## Further Reading
+
+[`matplotlib` gallery, with many examples](https://matplotlib.org/3.1.1/gallery/index.html)
