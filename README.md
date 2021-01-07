@@ -27,7 +27,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Histogram
 * Lore
     * [Quantitative vs Categorical Variables](level_i/markdown/quant_cat.md)
-    * Reading Graphs
+    * About our first four graph types: Bar Charts, Histograms, Line Graphs, and Scatterplots
     
 ### Level II: Measures of Central Tendency
 
