@@ -19,7 +19,7 @@ A common use of bar charts is to display how often (the frequency) of the values
 
 The bar chart below lists each ice cream flavor on the horizontal axis. The vertical axis is marked off to show how often that flavor is selected as a student's favorite. The height of the bars over each flavor record how often that flavor appears as a student's favorite.
 
-![Ice Cream Flavors Bar Chart - Vertical Bars](/images/icecream.png)
+![Ice Cream Flavors Bar Chart - Vertical Bars](level_i/images/icecream.png)
 
 The bar chart below shows the same thing, but the flavors appear on the vertical axis and the bars extend horizontally to indicate the frequency of each flavor in the table.
 
