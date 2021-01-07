@@ -19,15 +19,13 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [List `[]`](level_i/markdown/list.md)
 * [String `''` `""`](level_i/markdown/string.md)
 * [`math`](level_i/markdown/math.md)
+* [Observational Units and Variables: Statistics Start Here](level_i/markdown/quant_cat.md)
 * [`matplotlib.pyplot`](level_i/markdown/matplotlib.pyplot.md)
-    * [Time Series](level_i/markdown/time_series.md)
-    * Decorating Graphs
-    * Bar Chart
-    * Scatter Plot
-    * Histogram
-* Lore
-    * [Observational Units and Variables: Statistics Start Here](level_i/markdown/quant_cat.md)
-    * [Our First Four Graph Types: Bar Charts, Histograms, Line Graphs, and Scatterplots](level_i/markdown/first4graphs.md)
+* [Line Graph](level_i/markdown/line_graph.md)
+* Bar Chart
+* Scatter Plot
+* Histogram
+* [Our First Four Graph Types: Bar Charts, Histograms, Line Graphs, and Scatterplots](level_i/markdown/first4graphs.md)
     
 ### Level II: Measures of Central Tendency
 
