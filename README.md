@@ -14,13 +14,13 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [The Interactive Console](level_i/markdown/console.md)
 * [Arithmetic Operators `+` `-` `*` `/` `**`](level_i/markdown/arithmetic.md)
 * [Defining a Variable `=`](level_i/markdown/variable.md)
-* [Python Programs](level_i/markdown/program.md)
+* [Python Program](level_i/markdown/program.md)
 * [`print`](level_i/markdown/print.md)
 * [List `[]`](level_i/markdown/list.md)
 * [String `''` `""`](level_i/markdown/string.md)
 * [`math`](level_i/markdown/math.md)
-* `matplotlib`
-    * Time Series
+* [`matplotlib.pyplot`](level_i/markdown/matplotlib.pyplot.md)
+    * [Time Series](level_i/markdown/time_series.md)
     * Decorating Graphs
     * Bar Chart
     * Scatter Plot

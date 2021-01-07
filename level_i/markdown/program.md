@@ -1,4 +1,4 @@
-# Python Programs
+# Python Program
 
 Sometimes you want to enter several lines of Python code. The interactive console is fine, but if you find yourself
 using the same code on multiple occasions, you don't want to have to type everything each time. Instead, you can
