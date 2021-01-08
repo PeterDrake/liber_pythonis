@@ -1,4 +1,4 @@
-# Observational Units and Variables: Statistics Start Here
+# Observational Units and Variables
 
 In statistics we study the characteristics of some sort of object.  Statisticians call the objects that we study ***units*** or ***observational units***.  The characteristics of the objects that we study are called ***variables***.
 
