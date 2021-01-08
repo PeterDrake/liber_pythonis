@@ -38,8 +38,8 @@ import matplotlib.pyplot as plt
 flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
 frequency = [6, 3, 2, 3] 
 
-\# To get horizontal bars, use "plt.barh" instead of "plt.bar".
-\# The "bbox_inches="tight" prevents the labels from being cut off of the image.
+# To get horizontal bars, use "plt.barh" instead of "plt.bar".
+# The "bbox_inches="tight" prevents the labels from being cut off of the image.
 
 plt.barh(flavors, frequency, align='center')
 plt.ylabel('Ice Cream Flavors')
