@@ -22,6 +22,8 @@ The bar chart below shows the same thing, but the flavors appear on the vertical
 <!-- (Comment) Code for graph below is in level_1/code/bar-horiz.py -->
 <img align="left" src="../image/icecreamh.png">
 
+Below is the Python code used to produce this graph.
+
 ```
 import matplotlib.pyplot as plt
 flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
