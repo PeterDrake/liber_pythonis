@@ -25,7 +25,8 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [Bar Chart](level_i/markdown/barchart.md)
 * Scatter Plot
 * Histogram
-* [Our First Four Graph Types: Bar Charts, Histograms, Line Graphs, and Scatterplots](level_i/markdown/first4graphs.md)
+
+
     
 ### Level II: Measures of Central Tendency
 
