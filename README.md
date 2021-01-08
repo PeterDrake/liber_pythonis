@@ -19,7 +19,7 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [List `[]`](level_i/markdown/list.md)
 * [String `''` `""`](level_i/markdown/string.md)
 * [`math`](level_i/markdown/math.md)
-* [Observational Units and Variables: Statistics Start Here](level_i/markdown/quant_cat.md)
+* [Observational Units and Variables](level_i/markdown/quant_cat.md)
 * [`matplotlib.pyplot`](level_i/markdown/matplotlib.pyplot.md)
 * [Line Graph](level_i/markdown/line_graph.md)
 * Bar Chart
