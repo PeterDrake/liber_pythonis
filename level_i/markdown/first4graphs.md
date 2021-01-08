@@ -22,6 +22,7 @@ The bar chart below shows the same thing, but the flavors appear on the vertical
 <!-- (Comment) Code for graph below is in level_1/code/bar-horiz.py -->
 <img align="left" src="../image/icecreamh.png">
 
+```
 import matplotlib.pyplot as plt
 flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
 frequency = [6, 3, 2, 3] 
@@ -35,6 +36,7 @@ plt.xlabel('frequency')
 plt.title("Favorite Ice Cream Flavors in Our Class")
 plt.savefig("fig1",bbox_inches="tight")
 
+```
 
 <br clear="left"/>
 ## Histograms
