@@ -11,7 +11,7 @@ The built-in `len` function returns the length of a sequence. Remember that both
 1. For each expression below, predict what will happen when you type it into the interactive console, then test your
    prediction. Summarize what you learn in your notes.
    ```python
-   len([[1, 2], [3, 4]])
+   len([[1, 2, 3], [4, 5, 6, 7]])
    ```
    ```python
    len(['water', 'earth', 'fire', 'air'])

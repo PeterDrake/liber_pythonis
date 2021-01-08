@@ -11,14 +11,16 @@ def mean(ls):
 ```
 
 The first line contains:
-* `def`, short for "define"
-* The name of the function (here, `mean`)
-* Between parentheses, the arguments to the function (here, `ls`, short for "list"); if there are multiple arguments,
-their names are separated by commas
-* A colon (`:`)
+* `def`, short for "define".
+* The name of the function. This function is called `mean`.
+* Between parentheses, the arguments to the function. This function takes one argument called `ls`, which is short for
+"list"). If there are multiple arguments, their names are separated by commas.
+* A colon.
 
-The lines below are run each time the function is called. In this case, there is only one such line.
-It specifies what is returned by the function.
+The remaining lines in the definition, called the ***body*** of the function, are run each time the function is called.
+The lines in the body must be indented.
+
+There is only one line in the body of `mean`. It specifies what is returned by the function.
 
 Once this is defined in a program, `mean([2, 6, 4, 5])`:
 1. Defines a variable `ls` to refer to `[2, 6, 4, 5]`. This ***local variable*** is only visible inside the function.
@@ -93,4 +95,15 @@ After this is defined, `years_to_seconds(5)` returns `157783680.0`.
     print(quux(numbers))
     print(ls)
     ```
-1. Define a function to convert Fahrenheit to Celsius.
+    ```python
+    def baz(x):
+        y = 3
+        return x
+    
+    y = 10
+    baz(15)
+    print(y)
+    ```
+1. Define a function for each of the tasks below.
+    1. Convert Fahrenheit to Celsius.
+    1. Given the radius, return the area of a circle.
