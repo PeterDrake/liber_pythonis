@@ -20,7 +20,8 @@ The bar chart below lists each ice cream flavor on the horizontal axis. The vert
 The bar chart below shows the same thing, but the flavors appear on the vertical axis and the bars extend horizontally to indicate the frequency of each flavor in the table.
 
 <!-- (Comment) Code for graph below is in level_1/code/bar-horiz.py -->
-![Ice Cream Flavors Bar Chart - Horizontal Bars](../image/icecreamh.png)
+<img align="right" src="../image/icecreamh.png">
+
 
 ## Histograms
  
