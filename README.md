@@ -29,8 +29,8 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     
 ### Level II: Measures of Central Tendency
 
-* `len`
-* `sum`
+* [`len`](level_ii/markdown/len.md)
+* [`sum`](level_ii/markdown/sum.md)
 * Mean
 * Defining a Function `def` (defining `mean`)
 * Equality Test `==`
