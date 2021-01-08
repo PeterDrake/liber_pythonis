@@ -32,8 +32,8 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [`len`](level_ii/markdown/len.md)
 * [`sum`](level_ii/markdown/sum.md)
 * Mean
-* Defining a Function `def` (defining `mean`)
-* Comparison Operators `<` `<=` `==` `>=` `>`
+* [Defining a Function `def`](level_ii/markdown/def.md)
+* Equality Test `==`
 * `sorted`
 * Sort Strings by Length (introducing `key=` for `sorted`)
 * Integer Division `//` `%`
@@ -42,7 +42,9 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * Median
 * `count`
 * Set
-* Frequency Bar Chart* Mode
+* Frequency Bar Chart
+* `max`
+* Mode
 * Lore
     * Mean
     * Median
