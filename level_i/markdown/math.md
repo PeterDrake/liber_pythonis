@@ -1,4 +1,4 @@
-# `math`
+# The `math` Library
 
 Python has a vast number of ***libraries*** of useful functions. One of these is the `math` library.
 

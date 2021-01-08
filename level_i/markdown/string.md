@@ -1,4 +1,4 @@
-# String
+# The String Data Type
 
 Another data type, in addition to numbers and lists, is the text ***string***:
 

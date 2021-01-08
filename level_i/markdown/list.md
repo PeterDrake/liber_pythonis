@@ -1,4 +1,4 @@
-# List
+# The List Data Type
 
 In addition to processing individual numbers, Python can work with ***lists***. A list is written in square brackets,
 with the individual values separated by commas:

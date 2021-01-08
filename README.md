@@ -2,9 +2,12 @@
 
 ## Motivation
 
-This book introduces Python programming as magical spellcasting, as represented in fantasy literature, films, and games. It is written for an audience of first-year undergraduate students with no previous programming experience. Specifically, it is used in the *Measuring Up* sections of Lewis & Clark College's first-year quantitative seminar Numbers, taught by Peter Drake and Liz Stanhope. Students are expected to emerge from the course with the ability to use Python for data visualization and simple statistical analysis.
+This book introduces Python programming, basic statistics, and data visualization. It is written for an audience of
+first-year undergraduate students with no previous programming experience. Specifically, it is used in the *Measuring
+Up* sections of Lewis & Clark College's first-year quantitative seminar Numbers, taught by Peter Drake and Liz Stanhope.
 
-More advanced readers will know that there are more concise, efficient, or Pythonic ways to do things. We have placed more emphasis on using a minimal set of tools so as not to overwhelm our students.
+More advanced readers will know that there are more concise, efficient, or Pythonic ways to do things. We have placed
+more emphasis on using a minimal set of tools to make the material more accessible.
 
 
 ## Contents
@@ -14,17 +17,17 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [The Interactive Console](level_i/markdown/console.md)
 * [Arithmetic Operators `+` `-` `*` `/` `**`](level_i/markdown/arithmetic.md)
 * [Defining a Variable `=`](level_i/markdown/variable.md)
-* [Python Program](level_i/markdown/program.md)
-* [`print`](level_i/markdown/print.md)
-* [List `[]`](level_i/markdown/list.md)
-* [String `''` `""`](level_i/markdown/string.md)
-* [`math`](level_i/markdown/math.md)
-* [Observational Units and Variables: Statistics Start Here](level_i/markdown/quant_cat.md)
-* [`matplotlib.pyplot`](level_i/markdown/matplotlib.pyplot.md)
-* [Line Graph](level_i/markdown/line_graph.md)
+* [Writing a Python Program](level_i/markdown/program.md)
+* [The `print` Function](level_i/markdown/print.md)
+* [The List Data Type `[]`](level_i/markdown/list.md)
+* [The String Data Type `''` `""`](level_i/markdown/string.md)
+* [The `math` Library](level_i/markdown/math.md)
+* [Observational Units and Variables](level_i/markdown/quant_cat.md)
+* [The `matplotlib.pyplot` Library](level_i/markdown/matplotlib.pyplot.md)
 * Bar Chart
-* Scatter Plot
 * Histogram
+* [Line Graph](level_i/markdown/line_graph.md)
+* Scatter Plot
 * [Our First Four Graph Types: Bar Charts, Histograms, Line Graphs, and Scatterplots](level_i/markdown/first4graphs.md)
     
 ### Level II: Measures of Central Tendency
@@ -33,23 +36,15 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [`sum`](level_ii/markdown/sum.md)
 * Mean
 * [Defining a Function `def`](level_ii/markdown/def.md)
-* Equality Test `==`
 * `sorted`
 * Sort Strings by Length (introducing `key=` for `sorted`)
-* Integer Division `//` `%`
 * List Index
-* `if`
+* Equality Test `==`* `if`
+* Integer Division `//` `%`
 * Median
 * `count`
-* Set
-* Frequency Bar Chart
 * `max`
 * Mode
-* Lore
-    * Mean
-    * Median
-    * Mode
-    * Proportion
 * Quests
     * Proportion
     * Explore Mean, Median, and Mode in Histogram
@@ -64,6 +59,8 @@ More advanced readers will know that there are more concise, efficient, or Pytho
     * Quartiles
     * Standard Deviation
 * Box Plot
+* `set`
+* Frequency Bar Chart
 * Lore
     * Measures of Spread
     * Reading Box Plots

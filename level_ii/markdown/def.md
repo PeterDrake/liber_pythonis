@@ -46,6 +46,7 @@ After this is defined, `years_to_seconds(5)` returns `157783680.0`.
 
 ## Explorations
 1. For each program below, predict what will happen when you run it, then test your prediction. Summarize what you learn in your notes.
+    <!--total_length.py-->
     ```python
     def total_length(ls1, ls2):
         return len(ls1) + len(ls2)

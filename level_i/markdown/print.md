@@ -1,4 +1,4 @@
-# `print`
+# The `print` Function
 
 If you type `2 + 2` into the interactive console, the result (`4`) is printed. If you put this line in a program, the
 result is *not* automatically printed. This is usually desirable, but occasionally you want a program to print
@@ -20,4 +20,4 @@ If you run this program, it will print `16.0` in the interactive console.
 
 ## Explorations
 
-1. Write a program to convert pounds to kilograms. You'll probably have to look up the formula online.
+1. Write a program to convert pounds to kilograms using the formula ![k = p times 0.45](https://latex.codecogs.com/svg.latex?k=p\times0.45).
