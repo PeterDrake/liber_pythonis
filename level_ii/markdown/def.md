@@ -62,7 +62,7 @@ After this is defined, `years_to_seconds(5)` returns `157783680.0`.
     ```
     ```python
     def double(x):
-        return x * 2
+        return 2 * x
     
     def square(x):
         return x * x
@@ -105,5 +105,5 @@ After this is defined, `years_to_seconds(5)` returns `157783680.0`.
     print(y)
     ```
 1. Define a function for each of the tasks below.
-    1. Convert Fahrenheit to Celsius.
-    1. Given the radius, return the area of a circle.
+    1. Convert Fahrenheit to Celsius using the formula ![c = (f - 32) times 5/9](https://latex.codecogs.com/svg.latex?c=\(f-32\)\times5/9).
+    1. Given the radius, return the area of a circle using the formula ![a = pi r squared](https://latex.codecogs.com/svg.latex?a=\pi%20r^2).
