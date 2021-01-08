@@ -33,16 +33,16 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [`sum`](level_ii/markdown/sum.md)
 * Mean
 * Defining a Function `def` (defining `mean`)
-* Equality Test `==`
-* Count
-* Frequency Bar Chart
+* Comparison Operators `<` `<=` `==` `>=` `>`
 * `sorted`
 * Sort Strings by Length (introducing `key=` for `sorted`)
 * Integer Division `//` `%`
 * List Index
 * `if`
 * Median
-* Mode
+* `count`
+* Set
+* Frequency Bar Chart* Mode
 * Lore
     * Mean
     * Median

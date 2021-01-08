@@ -32,6 +32,6 @@ The built-in `sum` functions returns the sum of a list of values.
    sum([[1, 2], [3, 4]], [])
    ```
    ```python
-   sum(['do', 're', 'me'], '')
+   sum(['do', 're', 'mi'], '')
    ```
  
