@@ -7,15 +7,10 @@ A bar chart is a way to visualize data using rectangles that are called bars.  O
 #### Example
 A common use of bar charts is to display how often (the frequency) of the values of a categorical variable for some group of observational units.  Suppose a class has fourteen students and the table below records their favorite type of ice cream.
 
-| Student  | Flavor       | Student  | Flavor       |
-|----------|--------------|----------|--------------|
-| Zdenko   | vanilla      | Keala    | chocolate    |
-| Teo      | chocolate    | Epifanio | tutti frutti |
-| Saori    | chocolate    | Heledd   | vanilla      |
-| Gunhild  | tutti frutti | Kyauta   | chocolate    |
-| Dayo     | vanilla      | Medrod   | strawberry   |
-| Ainslie  | strawberry   | Ain      | chocolate    |
-| Christel | strawberry   | Nirupama | chocolate    |
+| flavor  | chocolate       | strawberry  | tutti frutti       | vanilla |
+|----------|--------------|----------|--------------|--------------|
+| # students   | 6      | 3    | 2   | 3 |
+
 
 The bar chart below lists each ice cream flavor on the horizontal axis. The vertical axis is marked off to show how often that flavor is selected as a student's favorite. The height of the bars over each flavor record how often that flavor appears as a student's favorite.
 
