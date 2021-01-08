@@ -21,8 +21,8 @@ The bar chart below shows the same thing, but the flavors appear on the vertical
 
 <!-- (Comment) Code for graph below is in level_1/code/bar-horiz.py -->
 <img align="right" src="../image/icecreamh.png">
-
-
+hi mom
+<br clear="right"/>
 ## Histograms
  
 ## Line Graphs
