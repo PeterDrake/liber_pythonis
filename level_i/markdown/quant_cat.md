@@ -10,7 +10,7 @@ Variables are classified into different types.  We'll focus on two types of var
 - A variable like ice cream flavor is called a ***categorical variable***.  Categorical variables take on values from a list of possible categories, like chocolate, vanilla, strawberry, etc.  
 - A variable like weight is called a ***quantitative variable***.  Quantitative variables take on numerical values.
 
-#### Helpful Tool:  If it makes sense to compute the average of a variable, then that variable is quantitative.  Also, quantitative variables have units.
+Helpful Tool:  If it makes sense to compute the average of a variable, then that variable is quantitative.  Also, quantitative variables have units.
 
 #### Examples
 - The average favorite ice cream flavor of students in a class doesn't makes sense. This indicates ice cream flavor is a categorical variable. 
