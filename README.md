@@ -21,10 +21,11 @@ More advanced readers will know that there are more concise, efficient, or Pytho
 * [`math`](level_i/markdown/math.md)
 * [Observational Units and Statistical Variables](level_i/markdown/quant_cat.md)
 * [`matplotlib.pyplot`](level_i/markdown/matplotlib.pyplot.md)
-* [Line Graph](level_i/markdown/line_graph.md)
-* [Bar Chart](level_i/markdown/barchart.md)
-* Scatter Plot
-* Histogram
+* [About Bar Charts](level_i/markdown/barchart.md)
+* About Histograms
+* [About Line Graphs](level_i/markdown/line_graph.md)
+* About Scatter Plots
+
 
 
     
