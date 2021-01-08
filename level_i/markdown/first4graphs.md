@@ -20,9 +20,23 @@ The bar chart below lists each ice cream flavor on the horizontal axis. The vert
 The bar chart below shows the same thing, but the flavors appear on the vertical axis and the bars extend horizontally to indicate the frequency of each flavor in the table.
 
 <!-- (Comment) Code for graph below is in level_1/code/bar-horiz.py -->
-<img align="right" src="../image/icecreamh.png">
-hi mom
-<br clear="right"/>
+<img align="left" src="../image/icecreamh.png">
+
+import matplotlib.pyplot as plt
+flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
+frequency = [6, 3, 2, 3] 
+
+\# To get horizontal bars, use "plt.barh" instead of "plt.bar".
+\# The "bbox_inches="tight" prevents the labels from being cut off of the image.
+
+plt.barh(flavors, frequency, align='center')
+plt.ylabel('Ice Cream Flavors')
+plt.xlabel('frequency')
+plt.title("Favorite Ice Cream Flavors in Our Class")
+plt.savefig("fig1",bbox_inches="tight")
+
+
+<br clear="left"/>
 ## Histograms
  
 ## Line Graphs
