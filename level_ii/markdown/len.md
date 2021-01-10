@@ -1,4 +1,4 @@
-# `len`
+# The `len` Function
 
 The built-in `len` function returns the length of a sequence. Remember that both lists and strings are sequences.
 

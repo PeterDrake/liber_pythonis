@@ -32,19 +32,19 @@ more emphasis on using a minimal set of tools to make the material more accessib
     
 ### Level II: Measures of Central Tendency
 
-* [`len`](level_ii/markdown/len.md)
-* [`sum`](level_ii/markdown/sum.md)
-* Mean
+* [The `len` Function](level_ii/markdown/len.md)
+* [The `sum`Function](level_ii/markdown/sum.md)
+* [The Mean (Average) of a List of Numbers](level_ii/markdown/mean.md)
 * [Defining a Function `def`](level_ii/markdown/def.md)
-* `sorted`
+* [The `sorted` Function](level_ii/markdown/sorted.md)
 * Sort Strings by Length (introducing `key=` for `sorted`)
 * List Index
 * Equality Test `==`* `if`
 * Integer Division `//` `%`
-* Median
+* The Median (Middle Value) of a List of Numbers
 * `count`
-* `max`
-* Mode
+* `max` (since we have sort, we could define this ourselves as an exploration!)
+* The Mode (Most Common Value) of a List of Numbers
 * Quests
     * Proportion
     * Explore Mean, Median, and Mode in Histogram

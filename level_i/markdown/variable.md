@@ -40,7 +40,13 @@ get back `3`.
    D = 17
    d
    ```
-   
+
+   ```python
+   x = 5
+   x = x + 1
+   x
+   ```
+      
    ```python
    10 = n
    ```
@@ -57,3 +63,4 @@ get back `3`.
    x = 2
    y
    ```
+   

@@ -18,6 +18,7 @@ A program to draw a graph generally has the following parts:
 
 Here's a simple example:
 
+<!-- simple_graph.py -->
 ```python
 import matplotlib.pyplot as plt
 data = [2, 3, 5, 1, 4]
