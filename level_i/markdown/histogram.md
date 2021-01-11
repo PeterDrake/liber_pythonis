@@ -11,7 +11,7 @@ In this example we'll see how to construct a histogram from a data set*.  The ob
  
  To build a histogram for the height variable, we first decide how to chop the axis recording heights into subintervals.  Usually people call the subintervals ***bins***, so we are creating the bins for our histogram.  For simplicity we'll use 4 bins for this example.  The highest height in the data set is 67 inches and the lowest is 12 inches (the length of a baby?).  We subtract the lowest from the heighest, and divide that number by the number of bins.  What we get is the length of the bins that we'll use in the histogram.
  
-[(1/4)(67-12)=13.75]<a href="https://www.codecogs.com/eqnedit.php?latex=\tfrac{1}{4}(67-12))=13.75" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\tfrac{1}{4}(67-12))=13.75" title="\tfrac{1}{4}(67-12))=13.75" /></a>
+[(1/4)(67-12)=13.75](https://latex.codecogs.com/gif.latex?\tfrac{1}{4}(67-12))=13.75)
 
 
 
