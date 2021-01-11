@@ -52,14 +52,12 @@ more emphasis on using a minimal set of tools to make the material more accessib
 
 * List Comprehension
 * Reading Data From a File `csv`
-* Type Conversion `int` `str` `float` `list`
+* Type Conversion `int` `float` `list` `str` `bool`
 * Measures of Spread
     * Range (This is unfortunately overloaded with the Python `range` function)
     * Quartiles
     * Standard Deviation
 * Box Plot
-* `set`
-* Frequency Bar Chart
 * Lore
     * Measures of Spread
     * Reading Box Plots
@@ -68,7 +66,8 @@ more emphasis on using a minimal set of tools to make the material more accessib
 
 * Plotting Multiple Data Sets Together
 * Data Wrangling
-* Lore
+* `set`
+* Frequency Bar Chart* Lore
     * Distributions: Uniform, Normal, and Skewed
     
 ### Level V: Populations, Samples, and the Central Limit Theorem
