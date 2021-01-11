@@ -1,9 +1,6 @@
-from count import count
-
-
 def mode(ls):
     def count_in_ls(x):
-        return count(x, ls)
+        return ls.count(x)
     return max(ls, key=count_in_ls)
 
 
