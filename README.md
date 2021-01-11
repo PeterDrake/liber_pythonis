@@ -41,7 +41,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [Testing Equality With `==`](level_ii/markdown/equality.md)
 * [Making Decisions With `if`](level_ii/markdown/if.md)
 * [Integer Division `//` `%`](level_ii/markdown/integer_division.md)
-* The Median (Middle Value) of a List of Numbers
+* [The Median (Middle Value) of a List of Numbers](level_ii/markdown/median.md)
 * `count`
 * The Mode (Most Common Value) of a List of Numbers
 * Quests
