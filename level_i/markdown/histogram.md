@@ -3,8 +3,10 @@
 A histogram is a way to visualize the values of a quantitative variable for a large group of observational units.  One axis of a histogram shows the quantitative variable, and is chopped up into intervals.  You then count how many data values appear in each interval.  The other axis displays these counts.  A box is drawn based at each interval, with length indicating the number of observations in that interval.  For data values that fall exactly on the edge on an interval, you have to decide to put them in the interval to the right or two the left.  Just apply the choice consistently for all data values.
 
 ## Example
-In this example we'll see how to construct a histogram from a data set.  The observational units for this data set are 250 children in the United States, the variables are the age (in years), weight (in pounds), height (in inches) and gender (recorded as M or F).  We will focus only on height variable in this example.
+In this example we'll see how to construct a histogram from a data set.  The observational units for this data set are 250 children in the United States, the variables are the age (in years), weight (in pounds), height (in inches) and gender (recorded as M or F). Because this data set is large, the table below only shows screen shot of the first few data values.  Click here to see the full data set.
+![kid data snapshot]()
 
+ We will focus only on the height variable in this example. 
 
 
 The data is from the [National Center for Health Statistics](https://www.cdc.gov/nchs/nhanes/index.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Fnhanes.htm). John Verzani at the City University of New York did the data gathering and cleaning to produce this nice data set as part of his educational project called [**UsingR**](https://www.math.csi.cuny.edu/Statistics/R/simpleR/). The decisions to use U.S. Customary Units (rather than metric), and the binary gender variables M and F, were likely made by researchers at the National Center for Health Statistics. 
