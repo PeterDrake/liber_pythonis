@@ -33,7 +33,7 @@ The key line is
 plt.bar(flavors, frequency)
 ```
 
-where you provide the list of `x` values (`flavors`) and the list of `y` values (`frequency`).
+where you provide the list of categories (`flavors`) and the list of numbers associated with those categories (`frequency`).
 
 The bar chart below shows the same thing, but the flavors appear on the vertical axis and the bars extend horizontally to indicate the frequency of each flavor in the table. The Python code used to produce the bar graph is given below the graph.
 
