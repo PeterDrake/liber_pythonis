@@ -1,4 +1,4 @@
-# Testing Equality With `==`
+# Testing Equality `==`
 
 If you define
 ```python

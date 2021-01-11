@@ -38,11 +38,11 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [Defining a Function `def`](level_ii/markdown/def.md)
 * [The `sorted` Function](level_ii/markdown/sorted.md)
 * [Getting a Sequence Element at a Specific Index With `[]`](level_ii/markdown/index.md)
-* [Testing Equality With `==`](level_ii/markdown/equality.md)
-* [Making Decisions With `if`](level_ii/markdown/if.md)
+* [Testing Equality `==`](level_ii/markdown/equality.md)
+* [Making Decisions `if`](level_ii/markdown/if.md)
 * [Integer Division `//` `%`](level_ii/markdown/integer_division.md)
 * [The Median (Middle Value) of a List of Numbers](level_ii/markdown/median.md)
-* [Counting Occurrences With `count`](level_ii/markdown/count.md)
+* [Counting Occurrences `count`](level_ii/markdown/count.md)
 * [The Mode (Most Common Value) of a List of Numbers](level_ii/markdown/mode.md)
 
 ### Level III: Measures of Spread

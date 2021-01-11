@@ -1,4 +1,4 @@
-# Counting Occurrences With `count`
+# Counting Occurrences `count`
 
 Sometimes you want to know how many times an item occurs in a list. For example, in an election, you would want to
 know how many of the votes were for a particular candidate.
