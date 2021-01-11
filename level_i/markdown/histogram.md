@@ -4,7 +4,7 @@ A histogram is a way to visualize the values of a quantitative variable for a la
 
 ## Example
 In this example we'll see how to construct a histogram from a data set.  The observational units for this data set are 250 children in the United States, the variables are the age (in years), weight (in pounds), height (in inches) and gender (recorded as M or F). Because this data set is large, the table below only shows screen shot of the first few data values.  Click here to see the full data set.
-![kid data snapshot]()
+![kid data snapshot](../image/kid-heights-bit.png).
 
  We will focus only on the height variable in this example. 
 
