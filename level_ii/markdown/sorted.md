@@ -46,4 +46,6 @@ prediction. Summarize what you learn in your notes.
    ```python
    sorted([[4, 3], [2, 1]])
    ```
-   
+   ```python
+   sorted(['anteater', 'bat', 'camel'], key=len)
+   ```

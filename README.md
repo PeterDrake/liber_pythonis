@@ -37,13 +37,12 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [The Mean (Average) of a List of Numbers](level_ii/markdown/mean.md)
 * [Defining a Function `def`](level_ii/markdown/def.md)
 * [The `sorted` Function](level_ii/markdown/sorted.md)
-* Sort Strings by Length (introducing `key=` for `sorted`)
-* List Index
-* Equality Test `==`* `if`
+* [Getting a Sequence Element at a Specific Index With `[]`](level_ii/markdown/index.md)
+* [Testing Equality With `==`](level_ii/markdown/equality.md)
+* [Making Decisions With `if`](level_ii/markdown/if.md)
 * Integer Division `//` `%`
 * The Median (Middle Value) of a List of Numbers
 * `count`
-* `max` (since we have sort, we could define this ourselves as an exploration!)
 * The Mode (Most Common Value) of a List of Numbers
 * Quests
     * Proportion
