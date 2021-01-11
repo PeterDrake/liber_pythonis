@@ -28,9 +28,6 @@ prediction. Summarize what you learn in your notes.
     5 == '5'
     ```
     ```python
-    2.0 == 2
-    ```
-    ```python
     '' == []
     ```
 1. Python has several other operators that produce Boolean values. For each expression below, predict what will happen when you type it into the interactive console, then test your

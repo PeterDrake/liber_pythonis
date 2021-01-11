@@ -33,14 +33,14 @@ more emphasis on using a minimal set of tools to make the material more accessib
 ### Level II: Measures of Central Tendency
 
 * [The `len` Function](level_ii/markdown/len.md)
-* [The `sum`Function](level_ii/markdown/sum.md)
+* [The `sum` Function](level_ii/markdown/sum.md)
 * [The Mean (Average) of a List of Numbers](level_ii/markdown/mean.md)
 * [Defining a Function `def`](level_ii/markdown/def.md)
 * [The `sorted` Function](level_ii/markdown/sorted.md)
 * [Getting a Sequence Element at a Specific Index With `[]`](level_ii/markdown/index.md)
 * [Testing Equality With `==`](level_ii/markdown/equality.md)
 * [Making Decisions With `if`](level_ii/markdown/if.md)
-* Integer Division `//` `%`
+* [Integer Division `//` `%`](level_ii/markdown/integer_division.md)
 * The Median (Middle Value) of a List of Numbers
 * `count`
 * The Mode (Most Common Value) of a List of Numbers

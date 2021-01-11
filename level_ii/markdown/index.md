@@ -20,6 +20,12 @@ prediction. Summarize what you learn in your notes.
     ```
     ```python
     [8, 5, 7][3]
+    ```
+    ```python
+    [8, 5, 7][1.5]
+    ```
+    ```python
+    [8, 5, 7][1.0]
     ```   
     ```python
     ['dollar', 'peso', 'yen', 'euro'][1][2]
