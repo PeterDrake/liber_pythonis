@@ -8,7 +8,7 @@ digits after the decimal point, and "floating point" numbers, where the decimal 
 arithmetic is now rarely used.)
 
 Much of the time, you don't have to care whether you're using `int` or `float` values. One important exception is
-indexing: the index *must* be an int.
+indexing: the index *must* be an `int`.
 
 Arithmetic operators and functions generally preserve data types, so `2 + 2` gives the `int` value `4`, but `2.0 + 2.0`
 gives the `float` value `4.0`. Any operation that *might* produce a non-integer, though, *always* produces a float.
@@ -16,7 +16,7 @@ For example, `6 / 3` is `2.0`, not `2`.
 
 There are two special operators for doing integer arithmetic:
 
-`//` performs integer division, throwing away any remainder. `11 // 3` is `3`.
+`//` performs integer division, throwing away any remainder. `11 // 3` is `3`. Notice that this *always* rounds down.
 
 `%` performs integer division and keeps *only* the remainder. `11 % 3` is `2`.
 

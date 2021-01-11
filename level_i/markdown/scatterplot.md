@@ -12,7 +12,7 @@ A common use of bar charts is to display how often (the frequency) of the values
 
 The bar chart below lists each ice cream flavor on the horizontal axis. The vertical axis is marked off to show how often that flavor is selected as a student's favorite. The height of the bars over each flavor record how often that flavor appears as a student's favorite. The Python code used to produce the bar graph is given below the graph.
 
-<!-- (Comment) Code for graph below is in level_1/code/bar-vert.py -->
+<!-- (Comment) Code for graph below is in level_1/code/bar_vert.py -->
 ![Ice Cream Flavors Bar Chart - Vertical Bars](../image/icecream.png)
 
 ```

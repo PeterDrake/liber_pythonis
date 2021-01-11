@@ -12,19 +12,28 @@ A common use of bar charts is to display how often (the frequency) of the values
 
 The bar chart below lists each ice cream flavor on the horizontal axis. The vertical axis is marked off to show how often that flavor is selected as a student's favorite. The height of the bars over each flavor record how often that flavor appears as a student's favorite. The Python code used to produce the bar graph is given below the graph.
 
-<!-- (Comment) Code for graph below is in level_1/code/bar-vert.py -->
+<!-- (Comment) Code for graph below is in level_1/code/bar_vert.py -->
 ![Ice Cream Flavors Bar Chart - Vertical Bars](../image/icecream.png)
 
 ```
 import matplotlib.pyplot as plt
-flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
+flavors = ['chocolate', 'strawberry', 'tutti frutti', 'vanilla']
 frequency = [6, 3, 2, 3] 
-plt.bar(flavors, frequency, align='center')
+plt.bar(flavors, frequency)
 plt.ylabel('frequency')
 plt.xlabel('Ice Cream Flavors')
-plt.title("Favorite Ice Cream Flavors in Our Class")
-plt.savefig("fig1")
+plt.title('Favorite Ice Cream Flavors in Our Class')
+plt.tight_layout()
+plt.show()
 ```
+
+The key line is
+
+```python
+plt.bar(flavors, frequency)
+```
+
+where you provide the list of `x` values (`flavors`) and the list of `y` values (`frequency`).
 
 The bar chart below shows the same thing, but the flavors appear on the vertical axis and the bars extend horizontally to indicate the frequency of each flavor in the table. The Python code used to produce the bar graph is given below the graph.
 
@@ -33,16 +42,17 @@ The bar chart below shows the same thing, but the flavors appear on the vertical
 
 ```
 import matplotlib.pyplot as plt
-flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
-frequency = [6, 3, 2, 3] 
-
-# To get horizontal bars, use "plt.barh" instead of "plt.bar".
-# The "bbox_inches="tight" prevents the labels from being cut off of the image.
-
-plt.barh(flavors, frequency, align='center')
+flavors = ['chocolate', 'strawberry', 'tutti frutti', 'vanilla']
+frequency = [6, 3, 2, 3]
+plt.barh(flavors, frequency)
 plt.ylabel('Ice Cream Flavors')
 plt.xlabel('frequency')
-plt.title("Favorite Ice Cream Flavors in Our Class")
-plt.savefig("fig1",bbox_inches="tight")
+plt.title('Favorite Ice Cream Flavors in Our Class')
+plt.tight_layout()
+plt.show()
 ```
 
+Notice that that the only differences are:
+
+* You use `barh` instead of `bar`.
+* The axis labels are swapped.
