@@ -48,7 +48,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 ### Level III: Measures of Spread
 
 * [List Comprehensions](level_iii/markdown/comprehension.md)
-* Reading Data From a File `csv`
+* [Reading Data From a File `csv`](level_iii/markdown/csv.md)
 * Type Conversion `int` `float` `list` `str` `bool`
 * Measures of Spread
     * Range (This is unfortunately overloaded with the Python `range` function)
