@@ -44,3 +44,4 @@ prediction. Summarize what you learn in your notes.
 1. Define a function that takes a list of strings. It should return a list of some of those strings. Specifically,
 it should return a sorted list of those strings that start with `'a'`.
 1. Define a function that takes a list of lists and returns a list of only those lists that aren't empty.
+1. Define a function that takes a list of lists and returns a list of the means of those lists.

@@ -1,4 +1,4 @@
-import csv
+import csv_example
 import matplotlib.pyplot as plt
 
 
@@ -8,14 +8,14 @@ def mean(ls):
 
 def average_price(year):
     with open('doxycycline_' + str(year) + '.csv') as file:
-        reader = csv.DictReader(file)
+        reader = csv_example.DictReader(file)
         prices = [float(row['NADAC_Per_Unit']) for row in reader]
         return mean(prices)
 
 
 def number_of_manufacturers(year):
     with open('doxycycline_' + str(year) + '.csv') as file:
-        reader = csv.DictReader(file)
+        reader = csv_example.DictReader(file)
         labels = [row['NDC'] for row in reader]
         makers = [label[:4] for label in labels]  # The first four digits indicate the manufacturer
         return len(set(makers))
