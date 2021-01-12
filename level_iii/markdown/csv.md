@@ -25,9 +25,10 @@ import csv
 
 with open('data.csv') as file:
     reader = csv.DictReader(file)
-    rows = [row for row in reader]
-    ages = [int(row['age']) for row in rows]
-    print(ages)
+
+rows = [row for row in reader]
+ages = [int(row['age']) for row in rows]
+print(ages)
 ```
 
 prints `[58, 103, 87, 138, 82]`.
@@ -43,9 +44,10 @@ import matplotlib.pyplot as plt
 
 with open('data.csv') as file:
     reader = csv.DictReader(file)
-    rows = [row for row in reader]
-    ages = [int(row['age']) for row in rows]
-    heights = [int(row['height']) for row in rows]
+
+rows = [row for row in reader]
+ages = [int(row['age']) for row in rows]
+heights = [int(row['height']) for row in rows]
 
 plt.scatter(ages, heights)
 
