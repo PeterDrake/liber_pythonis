@@ -1,6 +1,6 @@
 # List Comprehensions
 
-A ***list comprehension*** allows you to transform on list into another. For example, if you define
+A ***list comprehension*** allows you to transform one list into another. For example, if you define
 
 ```python
 ls = [8, 2, 5, 4]
