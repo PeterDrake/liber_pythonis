@@ -64,7 +64,8 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * Plotting Multiple Data Sets Together
 * Data Wrangling
 * `set`
-* Frequency Bar Chart* Lore
+* Frequency Bar Chart
+* Lore
     * Distributions: Uniform, Normal, and Skewed
     
 ### Level V: Populations, Samples, and the Central Limit Theorem
@@ -86,23 +87,3 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * Lore
     * Correlation
     * Regression
-
-
-
-## Terminology
-
-| Term | Meaning (in computer science terms) |
-| --- | --- |
-| Component | Concept, syntax, or type |
-| Spell | Code snippet |
-| Lore | Concept, including statistics |
-| Scroll | Defined function |
-| Artifact | Object |
-| Tome | Library |
-| Potion | Debugging technique |
-| Ward | Unit testing or error handling technique |
-| Quest | Exercise, problem, or project |
-| Imp | Bug |
-| Experiment | Experiment |
-| Flourish | Variation, alternative, or syntactic sugar |
-

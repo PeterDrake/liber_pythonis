@@ -21,9 +21,14 @@ Here's a simple example:
 <!-- simple_graph.py -->
 ```python
 import matplotlib.pyplot as plt
+
 data = [2, 3, 5, 1, 4]
+
 plt.plot(data)
+
 plt.title('Zombie outbreaks')
+plt.tight_layout()
+
 plt.show()
 ```
 
@@ -57,13 +62,20 @@ There are many options here, but here are the most common ones:
 
 ## Displaying the Graph
 
-There are two ways to do this:
+Before displaying the graph, it is best to add this line:
+
+```python
+plt.tight_layout()
+```
+
+Without this, sometimes parts of the axis labels are cut off.
+
+There are two ways to display the graph:
 
 `plt.show()` displays the graph on your screen.
 
-`plt.savefig('filename.png', bbox_inches='tight')` saves the graph in a file called `filename.png`. Of course, you can
-change the name of the file. The named argument `bbox_inches='tight'` prevents the saved image from either cutting
-off part of the graph or leaving excess white space around it.
+`plt.savefig('filename.png')` saves the graph in a file called `filename.png`. Of course, you can
+change the name of the file.
 
 ## Multiple Plots
 

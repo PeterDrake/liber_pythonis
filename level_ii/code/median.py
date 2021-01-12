@@ -1,12 +1,10 @@
 def median(ls):
+    n = len(ls)
     s = sorted(ls)
-    if len(s) % 2 == 1:
-        middle = len(s) // 2
-        return s[middle]
+    if n % 2 == 1:
+        return s[n // 2]
     else:
-        left = (len(s) - 1) // 2
-        right = len(s) // 2
-        return (s[left] + s[right]) / 2
+        return (s[(n - 1) // 2] + s[n // 2]) / 2
 
 
 numbers = [34, 75, 49, 38, 46, 74, 92, 13, 66]
