@@ -1,4 +1,4 @@
-# Making Decisions `if`
+# Making a Decision `if`
 
 An ***`if` statement*** allows your program to behave differently depending on a Boolean ***condition***. For example,
 

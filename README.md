@@ -39,7 +39,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [The `sorted` Function](level_ii/markdown/sorted.md)
 * [Getting a Sequence Element at a Specific Index With `[]`](level_ii/markdown/index.md)
 * [Testing Equality `==`](level_ii/markdown/equality.md)
-* [Making Decisions `if`](level_ii/markdown/if.md)
+* [Making a Decision `if`](level_ii/markdown/if.md)
 * [Integer Division `//` `%`](level_ii/markdown/integer_division.md)
 * [The Median (Middle Value) of a List of Numbers](level_ii/markdown/median.md)
 * [Counting Occurrences `count`](level_ii/markdown/count.md)
@@ -47,7 +47,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 
 ### Level III: Measures of Spread
 
-* List Comprehension
+* [List Comprehensions](level_iii/markdown/comprehension.md)
 * Reading Data From a File `csv`
 * Type Conversion `int` `float` `list` `str` `bool`
 * Measures of Spread
@@ -63,6 +63,8 @@ more emphasis on using a minimal set of tools to make the material more accessib
 
 * Plotting Multiple Data Sets Together
 * Data Wrangling
+* Slicing `:`
+* `in`
 * `set`
 * Frequency Bar Chart
 * Lore
