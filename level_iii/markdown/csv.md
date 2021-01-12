@@ -17,7 +17,7 @@ You can think of this as a table, like you might see in a spreadsheet.
 
 The first row gives the names of the columns, separated by commas. Each row after that gives a value for each column.
 
-Python's `csv` library makes it relatively easy to extract any one column. If the information above were in a file
+Python's `csv` library makes it relatively easy to extract any one column. If the information above is in a file
 called `data.csv` (in the same folder as your Python program), then
 
 ```python

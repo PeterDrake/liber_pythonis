@@ -48,44 +48,34 @@ more emphasis on using a minimal set of tools to make the material more accessib
 ### Level III: Measures of Spread
 
 * [List Comprehensions](level_iii/markdown/comprehension.md)
-* Type Conversion `int` `float` `list` `str` `bool`
+* [Type Conversion `int` `float` `list` `str` `bool`](level_iii/markdown/type_conversion.md)
 * [Reading Data From a File `csv`](level_iii/markdown/csv.md)
-* Measures of Spread
-    * Range (This is unfortunately overloaded with the Python `range` function)
-    * Quartiles
-    * Standard Deviation
-* Box Plot
-* Lore
-    * Measures of Spread
-    * Reading Box Plots
+* Range
+* Quartiles
+* Standard Deviation
+* About Box Plots
 
 ### Level IV: Distributions
 
-* Plotting Multiple Data Sets Together
+* Uniform Distributions
+* Normal Distributions
+* Skewed Distributions
 * Data Wrangling
 * Slicing `:`
 * `in`
 * `set`
 * Frequency Bar Chart
-* Lore
-    * Distributions: Uniform, Normal, and Skewed
     
 ### Level V: Populations, Samples, and the Central Limit Theorem
 
 * Proportion
-* `random`
-    * `sample`
-* Lore
-    * Populations and Samples
-    * Parameters and Statistics
-    * Central Limit Theorem for Proportions
-    * Confidence Interval
+* Populations and Samples
+* Parameters and Statistics
+* Central Limit Theorem for Proportions
+* Confidence Interval
 
 ### Level VI: Relationships Between Variables
 
-* Relationships Between Variables
-    * Correlation
-    * Regression
-* Lore
-    * Correlation
-    * Regression
+* Correlation
+* Regression
+
