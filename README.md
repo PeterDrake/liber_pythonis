@@ -39,7 +39,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [The `sorted` Function](level_ii/markdown/sorted.md)
 * [Getting a Sequence Element at a Specific Index With `[]`](level_ii/markdown/index.md)
 * [Testing Equality `==`](level_ii/markdown/equality.md)
-* [Making Decisions `if`](level_ii/markdown/if.md)
+* [Making a Decision `if`](level_ii/markdown/if.md)
 * [Integer Division `//` `%`](level_ii/markdown/integer_division.md)
 * [The Median (Middle Value) of a List of Numbers](level_ii/markdown/median.md)
 * [Counting Occurrences `count`](level_ii/markdown/count.md)
@@ -47,43 +47,36 @@ more emphasis on using a minimal set of tools to make the material more accessib
 
 ### Level III: Measures of Spread
 
-* List Comprehension
-* Reading Data From a File `csv`
-* Type Conversion `int` `float` `list` `str` `bool`
-* Measures of Spread
-    * Range (This is unfortunately overloaded with the Python `range` function)
-    * Quartiles
-    * Standard Deviation
-* Box Plot
-* Lore
-    * Measures of Spread
-    * Reading Box Plots
+* [List Comprehensions](level_iii/markdown/comprehension.md)
+* [Type Conversion `int` `float` `list` `str` `bool`](level_iii/markdown/type_conversion.md)
+* [Reading Data From a File `csv`](level_iii/markdown/csv.md)
+* [Range (Low to High)](level_iii/markdown/data_range.md)
+* [Percentiles and Quartiles (Dividing up the Data)](level_iii/markdown/percentile.md)
+* Interquartile Range
+* About Box Plots
+* Standard Deviation
 
 ### Level IV: Distributions
 
-* Plotting Multiple Data Sets Together
+* Uniform Distributions
+* Normal Distributions
+* Skewed Distributions
 * Data Wrangling
+* Slicing `:`
+* `in`
 * `set`
 * Frequency Bar Chart
-* Lore
-    * Distributions: Uniform, Normal, and Skewed
     
 ### Level V: Populations, Samples, and the Central Limit Theorem
 
 * Proportion
-* `random`
-    * `sample`
-* Lore
-    * Populations and Samples
-    * Parameters and Statistics
-    * Central Limit Theorem for Proportions
-    * Confidence Interval
+* Populations and Samples
+* Parameters and Statistics
+* Central Limit Theorem for Proportions
+* Confidence Interval
 
 ### Level VI: Relationships Between Variables
 
-* Relationships Between Variables
-    * Correlation
-    * Regression
-* Lore
-    * Correlation
-    * Regression
+* Correlation
+* Regression
+
