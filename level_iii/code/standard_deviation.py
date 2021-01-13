@@ -1,8 +1,15 @@
-from math import sqrt
-from statistics import mean
+import math
+
+
+def mean(ls):
+    return sum(ls) / len(ls)
+
+
+def standard_deviation(data):
+    squared_deviations = [(x - mean(data)) ** 2 for x in data]
+    variance = sum(squared_deviations) / len(data)
+    return math.sqrt(variance)
+
 
 xs = [36, 41, 75, 38, 12, 28, 17, 98, 53, 66]
-
-squared_deviations = [(x - mean(x)) ** 2 for x in xs]
-variance = sum(squared_deviations) / len(xs)
-standard_deviation = sqrt(variance)
+print(standard_deviation(xs))

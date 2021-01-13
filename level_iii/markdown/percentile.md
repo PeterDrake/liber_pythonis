@@ -25,3 +25,21 @@ value.
 We are glossing over some details about what to do if the data don't divide evenly. Surprisingly, [statisticians have
 not agreed on how to handle this situation](https://en.wikipedia.org/wiki/Quartile#Computing_methods). It doesn't matter
 much when the data set is large.
+
+Here's a program to compute the first and third quartiles of heights from the NCHS data:
+
+<!--heights_quartiles.py-->
+```python
+import csv
+
+def percentile(p, data):
+    return sorted(data)[len(data) * p // 100]
+
+with open('kid-weights-UsingR.csv') as file:
+    reader = csv.DictReader(file)
+    rows = [row for row in reader]
+
+heights = [int(row['height']) for row in rows]
+print('First quartile: ' + str(percentile(25, heights)))
+print('Third quartile: ' + str(percentile(75, heights)))
+```
