@@ -14,7 +14,7 @@ In this example we'll see how to construct a histogram from a data set*.  The ob
 | 82  | 47     | 47     | F      |
 
  We will focus only on the height variable in this example. 
- 
+
  To build a histogram for the height variable, we first decide how to chop the axis recording heights into subintervals.  Usually people call the subintervals ***bins***, so we are creating the bins for our histogram.  For simplicity we'll use 4 bins for this example.  The highest height in the data set is 67 inches and the lowest is 12 inches (data entry error?).  We subtract the lowest from the heighest, and divide that number by the number of bins.  What we get is the length of the bins that we'll use in the histogram.
  
 ![a quarter of 67 minus 12 is 13.75](https://latex.codecogs.com/svg.latex?\tfrac{1}{4}(67-12)=13.75)
@@ -46,27 +46,25 @@ Finally we can draw the histogram with the length of the box over each interval 
 ![Histogram of children's heights by hand](../image/hist_height_byhand.png)
 
 
-## Example - Using Basic Python
 
+## Example - Using `matplotlib.pyplot`
 
-## Example - Using the Python Pandas Library
+By using the `matplotlib.pyplot` library, we can use Python to automatically create a histogram of numbers in a list.  The histogram below was created using this method. The code that produced this histogram appears below the histogram. The key line of code here is `plt.hist(heights, edgecolor='black', bins=4)`.  You provide the list of data (`heights`), and the number of bins (`bins=4`). To get lines around the rectangles in the plot we've included (`edgecolor='black'`).
 
-By using the Pandas Library, we can use Python to automatically read in a .csv file, choose a number of bins, count the frequencies of data values in each bin, and produce a histogram.  The histogram below was created using this method.  The name of the .csv file that gets read into Python is `kid_data_UsingR.csv`  The code that produced this histogram appears below the histogram.
-
-<!-- (Comment) Code for graph below is in level_1/code/hist_pandas.py -->
-![Histogram of children's heights using Pandas](../image/hist_heights_pd.png)
+<!-- (Comment) Code for graph below is in level_1/code/hist.py -->
+![Histogram of children's heights using matplotlib.pyplot](../image/hist_heights_pd.png)
 
 ```
 import matplotlib.pyplot as plt
-import pandas as pd
-data = pd.read_csv('kid_data_UsingR.csv')
-plt.hist(data['height'], edgecolor='black',bins =4)
+
+heights = [38, 43, 48, 61, 47, 24, 29, 48, 59, 24, 40, 27, 26, 29, 29, 28, 59, 28, 30, 24, 36, 36, 47, 48, 33, 23, 28, 25, 35, 34, 32, 25, 40, 23, 33, 36, 36, 40, 31, 39, 41, 33, 58, 53, 31, 23, 33, 34, 36, 21, 48, 38, 36, 12, 27, 24, 24, 36, 36, 26, 38, 40, 24, 28, 36, 30, 27, 24, 41, 33, 45, 30, 58, 48, 26, 36, 25, 32, 23, 40, 24, 25, 27, 28, 37, 26, 25, 46, 38, 31, 30, 52, 23, 24, 53, 48, 36, 32, 36, 24, 29, 28, 54, 36, 50, 42, 34, 55, 30, 34, 39, 37, 24, 22, 58, 35, 38, 30, 45, 48, 46, 47, 32, 35, 24, 49, 48, 40, 28, 32, 28, 22, 40, 38, 32, 29, 33, 53, 54, 48, 37, 31, 28, 38, 54, 24, 43, 50, 61, 30, 61, 47, 40, 48, 33, 38, 30, 59, 42, 48, 36, 26, 67, 29, 24, 41, 38, 36, 34, 31, 36, 51, 23, 50, 26, 39, 30, 58, 35, 50, 60, 42, 47, 43, 36, 24, 24, 38, 27, 48, 34, 50, 25, 24, 26, 23, 39, 45, 26, 42, 33, 31, 41, 54, 51, 34, 59, 23, 23, 56, 58, 36, 24, 58, 52, 34, 22, 36, 24, 22, 29, 31, 23, 36, 43, 33, 22, 49, 39, 28, 36, 39, 61, 39, 30, 36, 36, 26, 29, 45, 32, 43, 36, 56, 40, 27, 25, 33, 40, 27]
+
+plt.hist(heights, edgecolor='black', bins=4)
 plt.ylabel('frequency')
 plt.xlabel('heights in inches')
 plt.title('Heights of Children')
 plt.tight_layout()
 plt.show()
-
 ```
 
 \* All data comes from somewhere, and it's important to give credit to the source. This also allows the reader to think critically about how the source of the data might influence their understanding of the data. The data is from the [National Center for Health Statistics](https://www.cdc.gov/nchs/nhanes/index.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Fnhanes.htm). John Verzani at the City University of New York did the data cleaning to produce this nice data set as part of his educational project called [**UsingR**](https://www.math.csi.cuny.edu/Statistics/R/simpleR/). The decisions to use U.S. Customary Units (rather than metric), and the binary gender variables M and F, were likely made by researchers at the National Center for Health Statistics. 
