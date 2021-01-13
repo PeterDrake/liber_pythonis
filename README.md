@@ -52,20 +52,20 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [Reading Data From a File `csv`](level_iii/markdown/csv.md)
 * [Range (Low to High)](level_iii/markdown/data_range.md)
 * [Percentiles and Quartiles (Dividing up the Data)](level_iii/markdown/percentile.md)
-* Interquartile Range
-* About Box Plots
-* Standard Deviation
+* [Interquartile Range (Range of the Middle Half of the Data)](level_iii/markdown/interquartile.md)
+* [About Box Plots](level_iii/markdown/box.md)
+* [Standard Deviation (Sophisticated Measure of Spread)](level_iii/markdown/standard_deviation.md)
 
 ### Level IV: Distributions
 
 * Uniform Distributions
 * Normal Distributions
 * Skewed Distributions
-* Data Wrangling
-* Slicing `:`
 * `in`
-* `set`
+* [The Set Data Type `{}`](level_iii/markdown/set.md)
 * Frequency Bar Chart
+* Slicing `:`
+
     
 ### Level V: Populations, Samples, and the Central Limit Theorem
 

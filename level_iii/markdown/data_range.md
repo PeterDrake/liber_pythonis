@@ -14,3 +14,22 @@ def data_range(data):
 ```
 
 With this definition, `data_range([2, 1, 7, 4])` returns `5`.
+
+Here's a program to compute the range of heights from the NCHS data:
+
+<!--heights_range.py-->
+```python
+import csv
+
+def data_range(data):
+    return max(data) - min(data)
+
+with open('kid-weights-UsingR.csv') as file:
+    reader = csv.DictReader(file)
+    rows = [row for row in reader]
+
+heights = [int(row['height']) for row in rows]
+print('Range of heights: ' + str(data_range(heights)))
+```
+
+Notice that the program must include the definition of `data_range`.
