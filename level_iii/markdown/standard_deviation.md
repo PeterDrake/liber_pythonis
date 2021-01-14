@@ -29,7 +29,7 @@ def standard_deviation(data):
     variance = sum(squared_deviations) / len(data)
     return math.sqrt(variance)
 
-with open('kid-weights-UsingR.csv') as file:
+with open('nchs.csv') as file:
     reader = csv.DictReader(file)
     rows = [row for row in reader]
 
