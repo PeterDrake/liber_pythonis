@@ -1,47 +1,46 @@
-# Bar Chart
+# Line Plot
 
-A bar chart is a way to visualize data using rectangles that are called bars.  One axis of the bar chart lists the categories of some categorical variable. The other axis is scaled to represent a quantitative variable.  There is one bar based at each category and its width or height is given by the value of the quantitative variable for that category.
+A ***line plot*** is a way to visualize data using points connected with line segments.  A common use of line plots is to visualize a quantitative variable that changes over time.  Time is appears on the horizontal axis, and the variable of interest appears on the vertical axis.  
 
 ## Example
-A common use of bar charts is to display how often (the frequency) of the values of a categorical variable for some group of observational units.  Suppose a class has fourteen students and the table below records their favorite type of ice cream. 
+In this example the observational unit is a single child, and the variables are time (in months), and the height of the child at a given time (in inches).
 
-| flavor  | chocolate       | strawberry  | tutti frutti       | vanilla |
-|----------|--------------|----------|--------------|--------------|
-| # students   | 6      | 3    | 2   | 3 |
+| time | height | 
+|-----|--------|
+| 12  | 25     |
+| 18 | 29     | 
+| 24  | 36     | 
+| 30 |   40   |
+| 36  | 44     |
 
+To make the line plot, scale the horizontal axis by time and the vertical axis by height. 
+Once the two axis are set up, plot the data.  So we plot the points below:
 
-The bar chart below lists each ice cream flavor on the horizontal axis. The vertical axis is marked off to show how often that flavor is selected as a student's favorite. The height of the bars over each flavor record how often that flavor appears as a student's favorite. The Python code used to produce the bar graph is given below the graph.
+ | (time, height) |
+|----|
+ | (12,25)     | 
+| (18,29)     | 
+| (24,36)     | 
+ | (30,40)    | 
+| (36,44)     | 
 
-<!-- (Comment) Code for graph below is in level_1/code/bar_vert.py -->
-![Ice Cream Flavors Bar Chart - Vertical Bars](../image/icecream.png)
+Finally, connect consecutive points in the plot. The completed line plot appears below, generated in Python using `matplotlib.pyplot`. The Python code used to produce the bar graph is given below the graph.  The key line in the code is `plt.plot(time, height)` which produces a line plot with the list that appears first plotted on the horizontal axis, and the list that appears second plotted on the vertical axis.
+
+<!-- (Comment) Code for graph below is in level_1/code/line.py -->
+![Age and Height Over Time Line Plot](../image/lineplot.png)
+
 
 ```
 import matplotlib.pyplot as plt
-flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
-frequency = [6, 3, 2, 3] 
-plt.bar(flavors, frequency, align='center')
-plt.ylabel('frequency')
-plt.xlabel('Ice Cream Flavors')
-plt.title("Favorite Ice Cream Flavors in Our Class")
-plt.savefig("fig1")
-```
 
-The bar chart below shows the same thing, but the flavors appear on the vertical axis and the bars extend horizontally to indicate the frequency of each flavor in the table. The Python code used to produce the bar graph is given below the graph.
+time = [12, 18, 24, 30, 36]
+height = [25, 29, 36, 40, 43]
 
-<!-- (Comment) Code for graph below is in level_1/code/bar-horiz.py -->
-![Ice Cream Flavors Bar Chart - Horizontal Bars](../image/icecreamh.png)
+plt.plot(time, height)
 
-```
-import matplotlib.pyplot as plt
-flavors = ["chocolate", "strawberry", "tutti frutti", "vanilla"]
-frequency = [6, 3, 2, 3] 
-
-# To get horizontal bars, use "plt.barh" instead of "plt.bar".
-# The "bbox_inches="tight" prevents the labels from being cut off of the image.
-
-plt.barh(flavors, frequency, align='center')
-plt.ylabel('Ice Cream Flavors')
-plt.xlabel('frequency')
-plt.title("Favorite Ice Cream Flavors in Our Class")
-plt.savefig("fig1",bbox_inches="tight")
+plt.xlabel('time in months')
+plt.ylabel('height in inches')
+plt.title('Height of a Child Over Time')
+plt.tight_layout()
+plt.show()
 ```
