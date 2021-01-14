@@ -63,7 +63,9 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * Skewed Distributions
 * [Testing Membership `in`](level_iii/markdown/in.md)
 * [The Set Data Type `{}`](level_iii/markdown/set.md)
-* Frequency Bar Chart
+* [Plotting a Frequency Bar Chart](level_iii/markdown/frequency.md)
+* [Dealing With Missing Data](level_iii/markdown/missing.md)
+* [Combining Lists `zip`](level_iii/markdown/zip.md)
 * Slicing `:`
 
     
