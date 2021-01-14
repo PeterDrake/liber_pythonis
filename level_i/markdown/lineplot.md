@@ -21,8 +21,9 @@ Once the two axis are set up, plot the data.  So we plot the points below:
  | (12,25)     | 
 | (18,29)     | 
 | (24,36)     | 
- | (30,40)     | 
+ | (30,40)    | 
 | (36,44)     | 
+
 Finally, connect consecutive points in the plot. The completed line plot appears below, generated in Python using `matplotlib.pyplot`. The Python code used to produce the bar graph is given below the graph.  The key line in the code is `plt.plot(time, height)` which produces a line plot with the list that appears first plotted on the horizontal axis, and the list that appears second plotted on the vertical axis.
 
 <!-- (Comment) Code for graph below is in level_1/code/line.py -->
