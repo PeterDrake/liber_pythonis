@@ -52,7 +52,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-Notice that that the only differences are:
+Notice that the only differences are:
 
 * You use `barh` instead of `bar`.
 * The axis labels are swapped.
