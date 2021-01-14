@@ -13,7 +13,7 @@ In this example the observational unit is a single child, and the variables are 
 | 30 |   40   |
 | 36  | 44     |
 
-To make the scatter plot, scale the horizontal axis by time and the vertical axis by height. 
+To make the line plot, scale the horizontal axis by time and the vertical axis by height. 
 Once the two axis are set up, plot the data.  So we plot the points below:
 
  | (time, height) |

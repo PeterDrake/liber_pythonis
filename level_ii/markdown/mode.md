@@ -1,11 +1,25 @@
 # The Mode (Most Common Value) of a List of Numbers
 
-## Idea of the Mode
+## What is the Mode?
+
+The ***mode*** is one of ***three measures of center*** that we will study this semester. It is one way to describe the typical, or central, value a variable takes for some group of observational units. 
+
+The mode can be used for both quantitative and categorical variables. The mode is simply the most common value in your data set.
+
+## Example
+
+Suppose a class has fourteen students and the table below records their favorite flavor of ice cream. 
+
+| flavor  | chocolate       | strawberry  | tutti frutti       | vanilla |
+|----------|--------------|----------|--------------|--------------|
+| # students   | 6      | 3    | 2   | 3 |
+
+Among these fourteen students, the mode favorite ice cream flavor is chocolate. 
 
 ## Computing the Mode in Python
 
 The definition of `mode` is not terribly long, but it requires a couple of variations on ideas that you've seen
-before.
+before.  These variations are ***inner functions*** and the use of a ***key*** with the `max` function.
 
 ### Inner Functions
 
@@ -53,7 +67,7 @@ It also works on lists of strings, so
 max(['race', 'class', 'gender'])
 ```
 
-returns `race`, which is the "largest" word alphabetically.
+returns `race`, which is the "largest" word alphabetically. 
 
 If you instead want to sort these words by length, you can provide an optional named argument `key` specifying what
 function to use to "measure" the words:
