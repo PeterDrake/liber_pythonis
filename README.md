@@ -25,10 +25,9 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [Observational Units and Variables](level_i/markdown/quant_cat.md)
 * [The `matplotlib.pyplot` Library](level_i/markdown/matplotlib.pyplot.md)
 * [About Bar Charts](level_i/markdown/barchart.md)
-* About Histograms
+* [About Histograms](level_i/markdown/histogram.md)
 * [About Line Graphs](level_i/markdown/line_graph.md)
-* About Scatter Plots
-* [Our First Four Graph Types: Bar Charts, Histograms, Line Graphs, and Scatterplots](level_i/markdown/first4graphs.md)
+* [About Scatter Plots](level_i/markdown/scatterplot.md)
     
 ### Level II: Measures of Central Tendency
 
