@@ -42,17 +42,16 @@ Next we count up the number of data values that fall into each of these bins. Fo
 Finally we can draw the histogram with the length of the box over each interval given by the number in the frequency table.
 
 
-<!-- (Comment) Code for graph below is in level_1/code/bar_vert.py -->
 ![Histogram of children's heights by hand](../image/hist_height_byhand.png)
 
 
 
 ## Example - Using `matplotlib.pyplot`
 
-By using the `matplotlib.pyplot` library, we can use Python to automatically create a histogram of numbers in a list.  The histogram below was created using this method. The code that produced this histogram appears below the histogram. The key line of code here is `plt.hist(heights, edgecolor='black', bins=4)`.  You provide the list of data (`heights`), and the number of bins (`bins=4`). To get lines around the rectangles in the plot we've included (`edgecolor='black'`).
+By using the `matplotlib.pyplot` library, we can use Python to automatically create a histogram of numbers in a list.  The histogram below was created using this method. The code that produced this histogram appears below the histogram. The key line of code is `plt.hist(heights, edgecolor='black', bins=4)`.  You provide the list of data (`heights`), and the number of bins (`bins=4`). To get lines around the rectangles in the plot we've included (`edgecolor='black'`).
 
 <!-- (Comment) Code for graph below is in level_1/code/hist.py -->
-![Histogram of children's heights using matplotlib.pyplot](../image/hist_heights_pd.png)
+![Histogram of children's heights using matplotlib.pyplot](../image/hist_heights.png)
 
 ```
 import matplotlib.pyplot as plt
