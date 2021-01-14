@@ -66,9 +66,8 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [Plotting a Frequency Bar Chart](level_iii/markdown/frequency.md)
 * [Dealing With Missing Data](level_iii/markdown/missing.md)
 * [Combining Lists `zip`](level_iii/markdown/zip.md)
-* Slicing `:`
+* [Slicing Sequences `[:]`](level_iii/markdown/slice.md)
 
-    
 ### Level V: Populations, Samples, and the Central Limit Theorem
 
 * Proportion
