@@ -26,7 +26,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [The `matplotlib.pyplot` Library](level_i/markdown/matplotlib.pyplot.md)
 * [About Bar Charts](level_i/markdown/barchart.md)
 * [About Histograms](level_i/markdown/histogram.md)
-* [About Line Graphs](level_i/markdown/line_graph.md)
+* [About Line Plots](level_i/markdown/line_plot.md)
 * [About Scatter Plots](level_i/markdown/scatterplot.md)
     
 ### Level II: Measures of Central Tendency
