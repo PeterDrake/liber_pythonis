@@ -1,8 +1,8 @@
 import math
 
 
-def mean(ls):
-    return sum(ls) / len(ls)
+def mean(data):
+    return sum(data) / len(data)
 
 
 def standard_deviation(data):

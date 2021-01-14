@@ -20,16 +20,16 @@ Computing the median requires combining many of the things you've learned up to 
 
 <!--median.py-->
 ```python
-def median(ls):
-    n = len(ls)
-    s = sorted(ls)
+def median(data):
+    n = len(data)
+    s = sorted(data)
     if n % 2 == 1:
         return s[n // 2]
     else:
         return (s[(n - 1) // 2] + s[n // 2]) / 2
 ```
 
-This function begins by storing the length of the list `ls` in a local variable called `n`. A sorted version of `ls`
+This function begins by storing the length of the list `data` in a local variable called `n`. A sorted version of `data`
 is stored in a second local variable called `s`.
 
 What happens next depends on whether `n` is odd or even. The `if` statement checks this by looking at `n % 2`

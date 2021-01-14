@@ -35,7 +35,7 @@ import csv
 def percentile(p, data):
     return sorted(data)[len(data) * p // 100]
 
-with open(nchs.csv) as file:
+with open('nchs.csv') as file:
     reader = csv.DictReader(file)
     rows = [row for row in reader]
 

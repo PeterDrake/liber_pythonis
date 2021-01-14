@@ -101,19 +101,19 @@ Here is the definition:
 
 <!--mode.py-->
 ```python
-def mode(ls):
-    def count_in_ls(x):
-        return ls.count(x)
-    return max(ls, key=count_in_ls)
+def mode(data):
+    def count_in_data(x):
+        return data.count(x)
+    return max(data, key=count_in_data)
 ```
 
-The last line says, "Return the 'largest' element of `ls`, measured by how often it occurs in `ls`." The inner function
-is necessary because the function specified as `key` has to take exactly one argument.
+The last line says, "Return the 'largest' element of `data`, measured by how often it occurs in `data`." The inner
+function is necessary because the function specified as `key` has to take exactly one argument.
 
 Now
 
 ```python
-numbers = [1, 2, 1, 1, 3, 1, 2, 1, 3, 3]
+mode([1, 2, 1, 1, 3, 1, 2, 1, 3, 3])
 ```
 
 returns `1`.

@@ -6,15 +6,15 @@ functions. This can make your programs much easier to read and debug.
 As an example, you could define a `mean` function like this:
 
 ```python
-def mean(ls):
-    return sum(ls) / len(ls)
+def mean(data):
+    return sum(data) / len(data)
 ```
 
 The first line contains:
 * `def`, short for "define".
 * The name of the function. This function is called `mean`.
-* Between parentheses, the arguments to the function. This function takes one argument called `ls`, which is short for
-"list"). If there are multiple arguments, their names are separated by commas.
+* Between parentheses, the arguments to the function. This function takes one argument called `data`. If there are
+multiple arguments, their names are separated by commas.
 * A colon.
 
 The remaining lines in the definition, called the ***body*** of the function, are run each time the function is called.
@@ -23,9 +23,10 @@ The lines in the body must be indented.
 There is only one line in the body of `mean`. It specifies what is returned by the function.
 
 Once this is defined in a program, `mean([2, 6, 4, 5])`:
-1. Defines a variable `ls` to refer to `[2, 6, 4, 5]`. This ***local variable*** is only visible inside the function.
-1. Finds the sum of the numbers in `ls`.
-1. Finds the length of the numbers in `ls`.
+
+1. Defines a variable `data` to refer to `[2, 6, 4, 5]`. This ***local variable*** is only visible inside the function.
+1. Finds the sum of the numbers in `data`.
+1. Finds the length of the numbers in `data`.
 1. Divides to find the mean.
 1. Returns the computed mean. In this case, the returned value is `4.25`.
 

@@ -18,27 +18,28 @@ The mean of the numbers 1, 4 and 8 is computed as follows:
 If you define a list of numbers
 
 ```python
-numbers = [8, 6, 7, 5, 3, 0, 9]
+data = [8, 6, 7, 5, 3, 0, 9]
 ```
 
 the finding the mean is easy, using functions you've learned:
 
+<!--mean.py-->
 ```python
-mean = sum(numbers) / len(numbers)
+mean = sum(data) / len(data)
 ```
 
 ## Explorations
 
 1. Use Python to confirm that the mean of the list 
     ```python
-    numbers = [8, 6, 7, 5, 3, 0, 9]
+    data = [8, 6, 7, 5, 3, 0, 9]
     ``` 
     is approximately 5.43.
 
-2. Suppose we make a dramatic change one of the numbers in the list from (1).  For example, change the `8` to `30` to get the new list:
+2. Suppose you make a dramatic change one of the numbers in the list from (1).  For example, change the `8` to `30` to get the new list:
     ```python
-    new_numbers = [30, 6, 7, 5, 3, 0, 9]
+    new_data = [30, 6, 7, 5, 3, 0, 9]
     ```
    Compute the mean of this new list.  How is the mean affected by changing the `8` to a `30`?
 
-3. Suppose we change the number `8` in the list `numbers` to `-30`.  Predict what will happen to the mean of the list, and then check your prediction by computing the mean.
+3. Suppose you change the number `8` in the list `numbers` to `-30`.  Predict what will happen to the mean of the list, and then check your prediction by computing the mean.
