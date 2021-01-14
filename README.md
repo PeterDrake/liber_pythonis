@@ -1,4 +1,4 @@
-# Liber Pythonis
+# Measuring Up: Python and Statistics Notes
 
 ## Motivation
 
