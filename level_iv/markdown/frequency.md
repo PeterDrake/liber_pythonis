@@ -44,3 +44,7 @@ counts = [heights.count(u) for u in unique]
 ```
 
 using a list comprehension.
+
+Here is the resulting graph:
+
+![A frequency bar chart of heights](../code/frequency.png)

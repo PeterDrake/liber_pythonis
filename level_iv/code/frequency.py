@@ -15,6 +15,7 @@ plt.bar(unique, counts)
 plt.ylabel('frequency')
 plt.xlabel('height (inches)')
 plt.title('Heights of children')
-#plt.text(40, -5, 'Data: National Center for Health Statistics, "Dang, these kids are tall!"', horizontalalignment='center')
+
 plt.tight_layout()
+plt.savefig('frequency.png')
 plt.show()
