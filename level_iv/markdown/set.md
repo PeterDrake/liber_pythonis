@@ -54,5 +54,8 @@ There are two key differences between sets and lists:
    list(set([1, 2, 2, 3]))
    ```
    ```python
-   
+   [x + 1 for x in {6, 2, 9}]
+   ```
+   ```python
+   {x + 1 for x in [6, 2, 9, 2]}
    ```

@@ -61,7 +61,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * Uniform Distributions
 * Normal Distributions
 * Skewed Distributions
-* `in`
+* [Testing Membership `in`](level_iii/markdown/in.md)
 * [The Set Data Type `{}`](level_iii/markdown/set.md)
 * Frequency Bar Chart
 * Slicing `:`

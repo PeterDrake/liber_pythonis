@@ -24,7 +24,7 @@ def percentile(p, data):
 def interquartile_range(data):
     return percentile(75, data) - percentile(25, data)
 
-with open('kid-weights-UsingR.csv') as file:
+with open(nchs.csv) as file:
     reader = csv.DictReader(file)
     rows = [row for row in reader]
 
