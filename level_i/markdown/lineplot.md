@@ -16,8 +16,8 @@ In this example the observational unit is a single child, and the variables are 
 To make the scatter plot, scale the horizontal axis by time and the vertical axis by height. 
 Once the two axis are set up, plot the data.  So we plot the points below:
 
- | (time, height) 
-|----------------|
+ | (time, height) |
+|----|
  | (12,25)     | 
 | (18,29)     | 
 | (24,36)     | 
@@ -41,5 +41,5 @@ plt.xlabel('time in months')
 plt.ylabel('height in inches')
 plt.title('Height of a Child Over Time')
 plt.tight_layout()
-plt.s
+plt.show()
 ```
