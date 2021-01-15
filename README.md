@@ -49,10 +49,10 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [List Comprehensions](level_iii/markdown/comprehension.md)
 * [Type Conversion `int` `float` `list` `str` `bool`](level_iii/markdown/type_conversion.md)
 * [Reading Data From a File `csv`](level_iii/markdown/csv.md)
-* [Outliers](level_iii/markdown/outliers.md)
-* [Range (Low to High)](level_iii/markdown/data_range.md)
+* [About Outliers](level_iii/markdown/outliers.md)
+* [The Range of a List of Numbers](level_iii/markdown/data_range.md)
 * [Percentiles and Quartiles (Dividing up the Data)](level_iii/markdown/percentile.md)
-* [Interquartile Range (Range of the Middle Half of the Data)](level_iii/markdown/interquartile.md)
+* [The Interquartile Range (Range of the Middle Half of the Data)](level_iii/markdown/interquartile.md)
 * [About Box Plots](level_iii/markdown/box.md)
 * [Standard Deviation (Sophisticated Measure of Spread)](level_iii/markdown/standard_deviation.md)
 
