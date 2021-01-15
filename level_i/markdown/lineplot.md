@@ -30,7 +30,7 @@ Finally, connect consecutive points in the plot. The completed line plot appears
 ![Age and Height Over Time Line Plot](../image/lineplot.png)
 
 
-```
+```python
 import matplotlib.pyplot as plt
 
 time = [12, 18, 24, 30, 36]

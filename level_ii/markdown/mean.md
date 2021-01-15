@@ -2,7 +2,7 @@
 
 ## What is the Mean?
 
-The ***mean*** is one of three ***measures of center*** that we will study this semester.  It is one way to describe the typical, or central, value a variable takes for some group of observational units.  Outside of a math class, the mean is usually called the average.
+The ***mean*** is one of three ***measures of center*** that you will study this semester.  It is one way to describe the typical, or central, value a variable takes for some group of observational units.  Outside of a math class, the mean is usually called the average.
 
 The mean is used only with quantitative variables.  To find the mean, compute the sum of the numbers in your data set and then divide by how many numbers you have.
 

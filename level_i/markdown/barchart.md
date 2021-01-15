@@ -15,7 +15,7 @@ The bar chart below lists each ice cream flavor on the horizontal axis. The vert
 <!-- (Comment) Code for graph below is in level_1/code/bar_vert.py -->
 ![Ice Cream Flavors Bar Chart - Vertical Bars](../image/icecream.png)
 
-```
+```python
 import matplotlib.pyplot as plt
 flavors = ['chocolate', 'strawberry', 'tutti frutti', 'vanilla']
 frequency = [6, 3, 2, 3] 
@@ -40,7 +40,7 @@ The bar chart below shows the same thing, but the flavors appear on the vertical
 <!-- (Comment) Code for graph below is in level_1/code/bar-horiz.py -->
 ![Ice Cream Flavors Bar Chart - Horizontal Bars](../image/icecreamh.png)
 
-```
+```python
 import matplotlib.pyplot as plt
 flavors = ['chocolate', 'strawberry', 'tutti frutti', 'vanilla']
 frequency = [6, 3, 2, 3]

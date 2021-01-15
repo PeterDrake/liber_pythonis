@@ -1,6 +1,10 @@
-# Range (Low to High)
+# The Range of a List of Numbers
 
-## Idea of the Range
+## What is the Range?
+
+The ***range*** is one of three ***measures of spread*** that you will study.  It is one way to measure how spread out values of a data set are.  
+
+The range is only used with quantitative variables.  To compute the range of a data set you just subtract the lowest data value from the highest data value.  The number you get is the range of the data set.
 
 ## Computing the Range in Python
 
@@ -33,3 +37,11 @@ print('Range of heights: ' + str(data_range(heights)))
 ```
 
 Notice that the program must include the definition of `data_range`.
+
+## Explorations
+
+1. Compute the range of the data set `[8, 6, 7, 5, 3, 0, 9]` and the range of the data set `[30, 6, 7, 5, 3, 0, 9]`.  How does the presence of the outlier `30` affect the value of the range?
+   
+1. A statistical measure (like range, or mean, or median)  is ***resistant to outliers*** if the addition of an outlier to a data set doesn't change the value of that statistical measure.  Is the range of a data set resistant to outliers?
+   
+1. We have studied three measures of center: the mean, median, and mode.  Which, if any, of these are resistant to outliers?  

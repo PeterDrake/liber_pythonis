@@ -50,3 +50,4 @@ You can also use parentheses in the way you're used to from math classes.
     which order to perform operations? Under what circumstances does the answer include a decimal point?
 
 1. What's the shortest expression you can write that produces a number at least 100 digits long?
+ 
