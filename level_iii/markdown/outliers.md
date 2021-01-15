@@ -8,7 +8,7 @@ Outliers are values that are unusually far from other values in a data set.  Som
 
 1.  The number `30` is an outlier in the data set `[30, 6, 7, 5, 3, 0, 9]`.  All other data values are between one and ten, with thirty falling well above 10.
 
-1.  Bellow is the scatter plot of children's heights from the  [*Histograms*](../../level_i/markdown/histogram.md) section in Level ii.
+1.  Bellow is the scatter plot of children's heights from the  [*Histograms*](../../level_i/markdown/scatterplot.md) section in Level ii.
 
     ![Scatter plot of children's ages and heights using matplotlib.pyplot](../../level_i/image/scatter_age_height.png)
 
