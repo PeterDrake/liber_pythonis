@@ -1,6 +1,6 @@
-def median(ls):
-    n = len(ls)
-    s = sorted(ls)
+def median(data):
+    n = len(data)
+    s = sorted(data)
     if n % 2 == 1:
         return s[n // 2]
     else:

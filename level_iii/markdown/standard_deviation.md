@@ -21,8 +21,8 @@ Here's a program to compute the standard deviation of heights from the NCHS data
 import csv
 import math
 
-def mean(ls):
-    return sum(ls) / len(ls)
+def mean(data):
+    return sum(data) / len(data)
 
 def standard_deviation(data):
     squared_deviations = [(x - mean(data)) ** 2 for x in data]

@@ -17,20 +17,20 @@ returns
 1. For each program below, predict what will happen when you run it, then test your prediction. Summarize what you learn in your notes.
     <!--sorted_duplicates.py-->
     ```python
-    ls = [1, 2, 3, 3, 2, 1]
-    print(sorted(ls))
+    dataq = [1, 2, 3, 3, 2, 1]
+    print(sorted(data))
     ```
     <!--sorted_no_side_effects.py-->
     ```python
-    ls = [2, 1, 4, 3]
-    sorted(ls)
-    print(ls)
+    data = [2, 1, 4, 3]
+    sorted(data)
+    print(data)
     ```
     <!--sorted_reassignment.py-->
     ```python
-    ls = [2, 1, 4, 3]
-    ls = sorted(ls)
-    print(ls)
+    data = [2, 1, 4, 3]
+    data = sorted(data)
+    print(data)
     ```
 1. For each expression below, predict what will happen when you type it into the interactive console, then test your
 prediction. Summarize what you learn in your notes.

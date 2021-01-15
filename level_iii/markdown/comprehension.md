@@ -3,22 +3,22 @@
 A ***list comprehension*** allows you to transform one list into another. For example, if you define
 
 ```python
-ls = [8, 2, 5, 4]
+data = [8, 2, 5, 4]
 ```
 
 then the list comprehension
 
 ```python
-[x + 1 for x in ls]
+[x + 1 for x in data]
 ```
 
-is `[9, 3, 6, 5]`. It builds the new list by temporarily defining `x` as each element of `ls` and using `x + 1` to
+is `[9, 3, 6, 5]`. It builds the new list by temporarily defining `x` as each element of `data` and using `x + 1` to
 produce the corresponding element of the new list.
 
 A list comprehension may include a boolean condition:
 
 ```python
-[x * 2 for x in ls if x > 4]
+[x * 2 for x in data if x > 4]
 ```
 
 is `[16, 10]` because only `8` and `5` satisfy the condition `x > 4`.
