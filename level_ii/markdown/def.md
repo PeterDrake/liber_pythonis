@@ -109,3 +109,4 @@ After this is defined, `years_to_seconds(5)` returns `157783680.0`.
 1. Define a function for each of the tasks below.
     1. Convert Fahrenheit to Celsius using the formula ![c = (f - 32) times 5/9](https://latex.codecogs.com/svg.latex?c=\(f-32\)\times5/9).
     1. Given the radius, return the area of a circle using the formula ![a = pi r squared](https://latex.codecogs.com/svg.latex?a=\pi%20r^2).
+    1. A person's [body mass index (BMI)](https://en.wikipedia.org/wiki/Body_mass_index) is defined by the formula ![BMI = m over the quantity h squared](https://latex.codecogs.com/svg.latex?BMI=m/h^2), where ![m](https://latex.codecogs.com/svg.latex?m) is the mass in kilograms and ![h](https://latex.codecogs.com/svg.latex?h) is the height in meters. Compute BMI given ![m](https://latex.codecogs.com/svg.latex?m) and ![h](https://latex.codecogs.com/svg.latex?h).
