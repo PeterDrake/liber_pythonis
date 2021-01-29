@@ -45,6 +45,6 @@ empty.
 that does the same thing, but writing it yourself is a good exercise.
 1. Define a function called `alliteration` that takes a list of strings. If the first string
 and the last string start with the same letter, it should return that letter. Otherwise, it should return `False`. For a
-real challenge, get it to detect whether *all* of the strings in any (non-empty) list start with the same letter.
+real challenge, get it to detect whether *all* of the strings in any (non-empty) list of strings start with the same letter.
 1. Define a function called `all_same` that takes a list of exactly three numbers. It should return `True` if all
 three numbers are equal, or `False` otherwise. For a real challenge, get it to work on any list of at least two numbers.
