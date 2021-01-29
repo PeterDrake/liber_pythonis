@@ -111,3 +111,12 @@ After this is defined, `years_to_seconds(5)` returns `157783680.0`.
     1. Given the radius, return the area of a circle using the formula ![a = pi r squared](https://latex.codecogs.com/svg.latex?a=\pi%20r^2).
     1. A person's [body mass index (BMI)](https://en.wikipedia.org/wiki/Body_mass_index) is defined by the formula ![BMI = m over the quantity h squared](https://latex.codecogs.com/svg.latex?BMI=m/h^2), where ![m](https://latex.codecogs.com/svg.latex?m) is the mass in kilograms and ![h](https://latex.codecogs.com/svg.latex?h) is the height in meters. Compute BMI given ![m](https://latex.codecogs.com/svg.latex?m) and ![h](https://latex.codecogs.com/svg.latex?h).
     1. Given a string, return that string with an exclamation point added at the end. In other words, if the input to your function is `'hello'`, it should return `'hello!'`.
+1. Consider the following function definitions:
+    ```python
+    def version1(x):
+        print(x + 1)
+    
+    def version2(x):
+        return x + 1
+    ```
+    What happens if you enter `version1(5)` or `version2(5)` in the interactive console? If you say `y = version1(3)` and `z = version2(3)`, what are the values of `y` and `z`?
