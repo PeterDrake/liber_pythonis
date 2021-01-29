@@ -120,3 +120,4 @@ After this is defined, `years_to_seconds(5)` returns `157783680.0`.
         return x + 1
     ```
     What happens if you enter `version1(5)` or `version2(5)` in the interactive console? If you say `y = version1(3)` and `z = version2(3)`, what are the values of `y` and `z`?
+1. Define a function called `repeat` that takes a letter (as a string) and a number and returns a string made of that many copies of that letter. For example, `repeat('e', 5)` should return `eeeee`.
