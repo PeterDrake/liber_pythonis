@@ -21,7 +21,7 @@ In this example we'll see how to construct a histogram from a data set*.  The ob
 
 To get the bins we start with the minimum value of 12 and add the bin width of 13.75, repeating until we reach the maximum value of 67.
 
-![twelve plus 13.75 is 25.75](https://latex.codecogs.com/svg.latex?12+13.75=25.75)
+![twelve plus 13.75 is 25.75](https://latex.codecogs.com/svg.latex?12%2b13.75=25.75)
 
 ![25.75 plus 13.75 is 39.5](https://latex.codecogs.com/svg.latex?25.75+13.75=39.5)
 
