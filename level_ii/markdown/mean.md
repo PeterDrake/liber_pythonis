@@ -21,7 +21,7 @@ If you define a list of numbers
 data = [8, 6, 7, 5, 3, 0, 9]
 ```
 
-the finding the mean is easy, using functions you've learned:
+then finding the mean is easy, using functions you've learned:
 
 <!--mean.py-->
 ```python
