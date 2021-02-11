@@ -37,7 +37,7 @@ It also works on lists of strings, so
 max(['race', 'class', 'gender'])
 ```
 
-returns `race`, which is the "largest" word alphabetically, that is, the one that would appear last if the words were
+returns `'race'`, which is the "largest" word alphabetically, that is, the one that would appear last if the words were
 sorted in dictionary order. 
 
 If you instead want to sort these words by length, you can provide an optional named argument `key` specifying what
@@ -47,7 +47,7 @@ function to use to "measure" the words:
 max(['race', 'class', 'gender'], key=len)
 ```
 
-returns `gender`, which is the longest word.
+returns `'gender'`, which is the longest word.
 
 ### Inner Functions
 
