@@ -120,4 +120,5 @@ returns `1`.
 
 ## Explorations
 1. What do you think `mode` should do if there's a tie for the most common element? What does it actually do?
+1. Define a function that, given a list of numbers, returns the one with the largest absolute value.
 1. Define a function to find the *least* common element of a list.
