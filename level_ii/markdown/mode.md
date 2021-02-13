@@ -34,20 +34,20 @@ return `6`.
 It also works on lists of strings, so
 
 ```python
-max(['race', 'class', 'gender'])
+max(['caterpillar', 'rat', 'dogfish'])
 ```
 
-returns `'race'`, which is the "largest" word alphabetically, that is, the one that would appear last if the words were
+returns `'rat'`, which is the "largest" word alphabetically, that is, the one that would appear last if the words were
 sorted in dictionary order. 
 
 If you instead want to sort these words by length, you can provide an optional named argument `key` specifying what
 function to use to "measure" the words:
 
 ```python
-max(['race', 'class', 'gender'], key=len)
+max(['caterpillar', 'rat', 'dogfish'], key=len)
 ```
 
-returns `'gender'`, which is the longest word.
+returns `'caterpillar'`, which is the longest word.
 
 ### Inner Functions
 
