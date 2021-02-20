@@ -39,6 +39,7 @@ prediction. Summarize what you learn in your notes.
     ```python
     [2 for letter in 'hello']
     ```
+1. Define a function that takes a list of numbers and returns a list of the negatives of those numbers.
 1. Define a function that takes a list of numbers and returns a list of the absolute values of those numbers.
 1. Define a function that takes a list of numbers and returns a list of only those numbers greater than 10.
 1. Define a function that takes a list of strings. It should return a list of some of those strings. Specifically,
