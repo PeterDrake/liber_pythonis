@@ -14,7 +14,7 @@ A program to draw a graph generally has the following parts:
 1. Prepare the data
 1. Create the graph
 1. Decorate the graph
-1. Display the graph
+1. Save the graph
 
 Here's a simple example:
 
@@ -29,7 +29,7 @@ plt.plot(data)
 plt.title('Zombie outbreaks')
 
 plt.tight_layout()
-plt.show()
+plt.savefig('zombies.png')
 ```
 
 Here is the graph produced:
@@ -60,9 +60,9 @@ There are many options here, but here are the most common ones:
 
 `plt.ylabel` is similar, but for the vertical (y) axis.
 
-## Displaying the Graph
+## Saving the Graph
 
-Before displaying the graph, it is best to add this line:
+Before saving the graph, it is best to add this line:
 
 ```python
 plt.tight_layout()
@@ -70,11 +70,7 @@ plt.tight_layout()
 
 Without this, sometimes parts of the axis labels are cut off.
 
-There are two ways to display the graph:
-
-`plt.show()` displays the graph on your screen.
-
-`plt.savefig('filename.png')` saves the graph in a file called `filename.png`. Of course, you can
+Finally, `plt.savefig('filename.png')` saves the graph in a file called `filename.png`. Of course, you can
 change the name of the file.
 
 ## Multiple Plots
