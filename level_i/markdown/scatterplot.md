@@ -77,5 +77,5 @@ plt.ylabel('height in inches')
 plt.xlabel('age in months')
 plt.title("Plot of Children's Height Against Age")
 plt.tight_layout()
-plt.show()
+plt.savefig('scatter.png')
 ```
