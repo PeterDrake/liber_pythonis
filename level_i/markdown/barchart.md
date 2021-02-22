@@ -24,7 +24,7 @@ plt.ylabel('frequency')
 plt.xlabel('Ice Cream Flavors')
 plt.title('Favorite Ice Cream Flavors in Our Class')
 plt.tight_layout()
-plt.show()
+plt.savefig('bar.svg')
 ```
 
 The key line is
