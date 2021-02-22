@@ -42,5 +42,5 @@ plt.xlabel('time in months')
 plt.ylabel('height in inches')
 plt.title('Height of a Child Over Time')
 plt.tight_layout()
-plt.show()
+plt.savefig('line.png')
 ```
