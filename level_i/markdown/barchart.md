@@ -49,7 +49,7 @@ plt.ylabel('Ice Cream Flavors')
 plt.xlabel('frequency')
 plt.title('Favorite Ice Cream Flavors in Our Class')
 plt.tight_layout()
-plt.savefig('bar.svg')
+plt.savefig('barh.svg')
 ```
 
 Notice that the only differences are:
