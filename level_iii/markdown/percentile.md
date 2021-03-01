@@ -2,7 +2,7 @@
 
 ## Idea of Percentiles and Quartiles
 
-The (for example) 20th ***percentile*** of a data set is the value *x* where 20% of the data are less than x and 80% are greater than *x*.
+The (for example) 20th ***percentile*** of a data set is the value *x* where 20% of the data are less than *x* and 80% are greater than *x*.
 
 This means that, for example, if you scored in the 67% percentile on a standardized test, you did better than 67% of test takers.
 
