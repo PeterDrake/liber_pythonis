@@ -2,7 +2,7 @@
 
 ## What is the Standard Deviation?
 
-The ***mean*** is one of three ***measures of spread*** that you will study this semester.  It is one way to describe to what degree the data in your data set is clumped around a single value, or spread out over a range of values. 
+The ***standard deviation*** is the third ***measures of spread*** that you will study this semester (the other two being the range and the interquartile range).  It is one way to describe to what degree the data in your data set is clumped around a single value, or spread out over a range of values. 
 
 The standard deviation is only used with quantitative variables.  Roughly speaking the standard deviation tells you how far a data value falls from the mean of your data set, on average. 
 
