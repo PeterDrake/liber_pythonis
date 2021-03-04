@@ -27,7 +27,7 @@ Now divide the sum of squares by the number of values in your data set.  The res
 There is one more step left in computing the standard deviation. Notice that if the data were all ages measured in months, the units in the variance would be *months-squared*.  We return to reasonable units by taking the square root of the variance.  The number that we get is the standard deviation of the data.
 
 
-![sum of squares](https://latex.codecogs.com/svg.latex?\left(1-\tfrac{11}{3})^2 + (4-\tfrac{11}{3})^2  + (8-\tfrac{11}{3})^2\right/3 \approx 4.3)
+![standard deviation of 1, 4, 8](\sqrt{\frac{(1-\tfrac{11}{3})^2&space;&plus;&space;(4-\tfrac{11}{3})^2&space;&plus;&space;(8-\tfrac{11}{3})^2}{3}}&space;\approx&space;2.9)
 
 
 ## Computing the Standard Deviation in Python
