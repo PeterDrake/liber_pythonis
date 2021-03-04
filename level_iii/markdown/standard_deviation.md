@@ -15,14 +15,14 @@ The standard deviation of the numbers 1, 4 and 8 is computed in the following wa
 Now compute the difference between each data value and the mean, square those differences, and then add up the squares.  This quantity is sometimes called the ***sum of squares***.
 
 
-![sum of squares](https://latex.codecogs.com/svg.latex?(1-\tfrac{11}{3})^2&plus;(4-\tfrac{11}{3})^2&plus;(8-\tfrac{11}{3})^2=26.0)
+![sum of squares of 1, 4, 8](https://latex.codecogs.com/svg.latex?(1-\tfrac{11}{3})^2&plus;(4-\tfrac{11}{3})^2&plus;(8-\tfrac{11}{3})^2=26.0)
 
 When the data all falls very close to the mean, the sum of squares is small.  If there is data very far from the mean, the sum of squares is large.  
 
 Now divide the sum of squares by the number of values in your data set.  The resulting number is called the ***variance*** of the dataa and gives a measure of the average distance a data point falls from the mean. 
 
 
-![sum of squares](https://latex.codecogs.com/svg.latex?\left(1-\tfrac{11}{3})^2 + (4-\tfrac{11}{3})^2  + (8-\tfrac{11}{3})^2\right/3 \approx 4.3)
+![variance of 1, 4, 8](https://latex.codecogs.com/svg.latex?\left&space;((1-\tfrac{11}{3})^2&space;&plus;&space;(4-\tfrac{11}{3})^2&space;&plus;&space;(8-\tfrac{11}{3})^2\right&space;)/3&space;\approx&space;8.7
 
 There is one more step left in computing the standard deviation. Notice that if the data were all ages measured in months, the units in the variance would be *months-squared*.  We return to reasonable units by taking the square root of the variance.  The number that we get is the standard deviation of the data.
 
