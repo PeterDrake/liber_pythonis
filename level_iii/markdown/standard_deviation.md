@@ -23,7 +23,6 @@ Now divide the sum of squares by the number of values in your data set.  The res
 
 
 ![variance of 1, 4, 8](https://latex.codecogs.com/svg.latex?\left&space;((1-\tfrac{13}{3})^2&space;&plus;&space;(4-\tfrac{13}{3})^2&space;&plus;&space;(8-\tfrac{13}{3})^2\right&space;)/3&space;\approx&space;8.2)
-
 There is one more step left in computing the standard deviation. Notice that if the data were all ages measured in months, the units in the variance would be *months-squared*.  We return to reasonable units by taking the square root of the variance.  The number that we get is the standard deviation of the data.
 
 
