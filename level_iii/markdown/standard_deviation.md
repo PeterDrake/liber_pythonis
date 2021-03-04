@@ -19,7 +19,7 @@ Now compute the difference between each data value and the mean, square those di
 
 When the data all falls very close to the mean, the sum of squares is small.  If there is data very far from the mean, the sum of squares is large.  
 
-Now divide the sum of squares by the number of values in your data set.  The resulting number is called the ***variance*** of the dataa and gives a measure of the average distance a data point falls from the mean. 
+Now divide the sum of squares by the number of values in your data set.  The resulting number is called the ***variance*** of the data and gives a measure of the average distance a data point falls from the mean. 
 
 
 ![variance of 1, 4, 8](https://latex.codecogs.com/svg.latex?\left&space;((1-\tfrac{11}{3})^2&space;&plus;&space;(4-\tfrac{11}{3})^2&space;&plus;&space;(8-\tfrac{11}{3})^2\right&space;)/3&space;\approx&space;8.7)
