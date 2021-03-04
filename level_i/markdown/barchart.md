@@ -24,7 +24,7 @@ plt.ylabel('frequency')
 plt.xlabel('Ice Cream Flavors')
 plt.title('Favorite Ice Cream Flavors in Our Class')
 plt.tight_layout()
-plt.show()
+plt.savefig('bar.svg')
 ```
 
 The key line is
@@ -49,7 +49,7 @@ plt.ylabel('Ice Cream Flavors')
 plt.xlabel('frequency')
 plt.title('Favorite Ice Cream Flavors in Our Class')
 plt.tight_layout()
-plt.show()
+plt.savefig('barh.svg')
 ```
 
 Notice that the only differences are:

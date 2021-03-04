@@ -56,7 +56,7 @@ plt.xlabel('Age (months)')
 plt.ylabel('Height (inches)')
 
 plt.tight_layout()
-plt.show()
+plt.savefig('age_vs_height.png')
 ```
 
 Here is the resulting image:

@@ -21,7 +21,7 @@ In this example we'll see how to construct a histogram from a data set*.  The ob
 
 To get the bins we start with the minimum value of 12 and add the bin width of 13.75, repeating until we reach the maximum value of 67.
 
-![twelve plus 13.75 is 25.75](https://latex.codecogs.com/svg.latex?12+13.75=25.75)
+![twelve plus 13.75 is 25.75](https://latex.codecogs.com/svg.latex?12%2b13.75=25.75)
 
 ![25.75 plus 13.75 is 39.5](https://latex.codecogs.com/svg.latex?25.75+13.75=39.5)
 
@@ -72,7 +72,7 @@ plt.ylabel('frequency')
 plt.xlabel('heights in inches')
 plt.title('Heights of Children')
 plt.tight_layout()
-plt.show()
+plt.savefig('hist.png')
 ```
 
 \* All data comes from somewhere, and it's important to give credit to the source. This also allows the reader to think critically about how the source of the data might influence their understanding of the data. The data is from the [National Center for Health Statistics](https://www.cdc.gov/nchs/nhanes/index.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnchs%2Fnhanes.htm). John Verzani at the City University of New York did the data cleaning to produce this nice data set as part of his educational project called [**UsingR**](https://www.math.csi.cuny.edu/Statistics/R/simpleR/). The decisions to use U.S. Customary Units (rather than metric), and the binary gender variables M and F, were likely made by researchers at the National Center for Health Statistics. 

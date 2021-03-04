@@ -10,7 +10,7 @@ The mean is used only with quantitative variables.  To find the mean, compute th
 
 The mean of the numbers 1, 4 and 8 is computed as follows:
 
-![one third of the sum of 1, 4 and 8](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)\approx 4.3)
+![one third of the sum of 1, 4 and 8 is approximately 4.3](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)\approx%204.3)
 
 
 ## Computing the Mean in Python
@@ -21,7 +21,7 @@ If you define a list of numbers
 data = [8, 6, 7, 5, 3, 0, 9]
 ```
 
-the finding the mean is easy, using functions you've learned:
+then finding the mean is easy, using functions you've learned:
 
 <!--mean.py-->
 ```python

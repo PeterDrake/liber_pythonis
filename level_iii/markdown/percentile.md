@@ -20,6 +20,12 @@ The easiest way to compute quartiles by hand is to first find the median of the 
 For the example above the median is 13, the first quartile is `Q1 = 4` and the third quartile is `Q3 = 45`.
 
 
+The (for example) 20th ***percentile*** of a data set is the value *x* where 20% of the data are less than *x* and 80% are greater than *x*.
+
+This means that, for example, if you scored in the 67% percentile on a standardized test, you did better than 67% of test takers.
+
+The 25th percentile is sometimes called the ***first quartile***. Similarly, the 50th percentile is the ***second quartile*** (and is the same thing as the median). The 75th percentile is the ***third quartile***.
+
 ## Computing Percentiles and Quartiles in Python
 
 This is pretty simple:

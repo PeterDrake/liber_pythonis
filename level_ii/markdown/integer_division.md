@@ -41,5 +41,5 @@ prediction. Summarize what you learn in your notes.
 1. Define a function called `is_even` that takes an `int` and returns `True` if and only if that number is even. (Hint:
 use `%`.)
 1. Define a function called `is_integer` that takes a number and returns `True` if and only if that number is a
-mathematical integer, regardless of whether it is an `int` or a `float`. (Hint: divide the number by `1` using both `/`
-and `//` and compare the results.)
+mathematical integer, regardless of whether it is an `int` or a `float`. (Hint: divide the number by `1` using either `/`
+or `//`.)

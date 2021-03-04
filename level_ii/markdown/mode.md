@@ -19,7 +19,35 @@ Among these fourteen students, the mode favorite ice cream flavor is chocolate.
 ## Computing the Mode in Python
 
 The definition of `mode` is not terribly long, but it requires a couple of variations on ideas that you've seen
-before.  These variations are ***inner functions*** and the use of a ***key*** with the `max` function.
+before.  These variations are the use of a ***key*** with the `max` function and ***inner functions***.
+
+### `max` and `key`
+
+The built-in function `max` does exactly what you would expect:
+
+```python
+max([5, 2, 3, 6, 4])
+```
+
+return `6`.
+
+It also works on lists of strings, so
+
+```python
+max(['caterpillar', 'rat', 'dogfish'])
+```
+
+returns `'rat'`, which is the "largest" word alphabetically, that is, the one that would appear last if the words were
+sorted in dictionary order. 
+
+If you instead want to sort these words by length, you can provide an optional named argument `key` specifying what
+function to use to "measure" the words:
+
+```python
+max(['caterpillar', 'rat', 'dogfish'], key=len)
+```
+
+returns `'caterpillar'`, which is the longest word.
 
 ### Inner Functions
 
@@ -67,34 +95,6 @@ NameError: name 'x' is not defined
 
 You won't need to use this trick often, but it's crucial for defining `mode`.
 
-### `max` and `key`
-
-The built-in function `max` does exactly what you would expect:
-
-```python
-max([5, 2, 3, 6, 4])
-```
-
-return `6`.
-
-It also works on lists of strings, so
-
-```python
-max(['race', 'class', 'gender'])
-```
-
-returns `race`, which is the "largest" word alphabetically, that is, the one that would appear last if the words were
-sorted in dictionary order. 
-
-If you instead want to sort these words by length, you can provide an optional named argument `key` specifying what
-function to use to "measure" the words:
-
-```python
-max(['race', 'class', 'gender'], key=len)
-```
-
-returns `gender`, which is the longest word.
-
 ### Defining Mode
 
 Here is the definition:
@@ -120,4 +120,5 @@ returns `1`.
 
 ## Explorations
 1. What do you think `mode` should do if there's a tie for the most common element? What does it actually do?
+1. Define a function that, given a list of numbers, returns the one with the largest absolute value.
 1. Define a function to find the *least* common element of a list.

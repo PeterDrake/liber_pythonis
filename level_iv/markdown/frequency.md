@@ -26,7 +26,7 @@ plt.xlabel('height (inches)')
 plt.title('Heights of children')
 
 plt.tight_layout()
-plt.show()
+plt.savefig('frequency.png')
 ```
 
 There are two challenges here. The first is to get a list of the unique heights. This is accomplished by the line

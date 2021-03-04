@@ -2,6 +2,10 @@
 
 ## Idea of the Interquartile Range
 
+The ***interquartile range (IQR)*** is the difference between the third and first quartiles.
+
+Compared to the range of the entire data set, the interquartile range is less sensitive to outliers.
+
 ## Computing the Interquartile Range in Python
 
 Since you already have a definition of `percentile`, this is trivial:
