@@ -10,14 +10,12 @@ The standard deviation is only used with quantitative variables.  Roughly speaki
 
 The standard deviation of the numbers 1, 4 and 8 is computed in the following way.  First compute the mean of the data.
 
-
 ![one third of the sum of 1, 4 and 8 is approximately 4.3](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)\approx%204.3)
-
 
 Now compute the difference between each data value and the mean, square those differences, and then add up the squares.  This quantity is sometimes called the ***sum of squares***.
 
 
-![sum of squares](https://latex.codecogs.com/svg.latex?(1-\tfrac{11}{3})^2 + (4-\tfrac{11}{3})^2  + (8-\tfrac{11}{3})^2\approx 4.3)
+![sum of squares](<https://www.codecogs.com/eqnedit.php?latex=(1-\tfrac{11}{3})^2&plus;(4-\tfrac{11}{3})^2&plus;(8-\tfrac{11}{3})^2\approx&space;4.3)
 
 When the data all falls very close to the mean, the sum of squares is small.  If there is data very far from the mean, the sum of squares is large.  
 
