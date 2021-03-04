@@ -10,19 +10,19 @@ The standard deviation is only used with quantitative variables.  Roughly speaki
 
 The standard deviation of the numbers 1, 4 and 8 is computed in the following way.  First compute the mean of the data.
 
-![one third of the sum of 1, 4 and 8 is approximately 4.3](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)=\frac{11}{3})
+![one third of the sum of 1, 4 and 8 is approximately 4.3](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)=\frac{13}{3})
 
 Now compute the difference between each data value and the mean, square those differences, and then add up the squares.  This quantity is sometimes called the ***sum of squares***.
 
 
-![sum of squares of 1, 4, 8](https://latex.codecogs.com/svg.latex?(1-\tfrac{11}{3})^2&plus;(4-\tfrac{11}{3})^2&plus;(8-\tfrac{11}{3})^2=26.0)
+![sum of squares of 1, 4, 8](https://latex.codecogs.com/svg.latex?(1-\tfrac{13}{3})^2&plus;(4-\tfrac{13}{3})^2&plus;(8-\tfrac{13}{3})^2=24.7)
 
 When the data all falls very close to the mean, the sum of squares is small.  If there is data very far from the mean, the sum of squares is large.  
 
 Now divide the sum of squares by the number of values in your data set.  The resulting number is called the ***variance*** of the data and gives a measure of the average distance a data point falls from the mean. 
 
 
-![variance of 1, 4, 8](https://latex.codecogs.com/svg.latex?\left&space;((1-\tfrac{11}{3})^2&space;&plus;&space;(4-\tfrac{11}{3})^2&space;&plus;&space;(8-\tfrac{11}{3})^2\right&space;)/3&space;\approx&space;8.7)
+![variance of 1, 4, 8](https://latex.codecogs.com/svg.latex?\left&space;((1-\tfrac{13}{3})^2&space;&plus;&space;(4-\tfrac{13}{3})^2&space;&plus;&space;(8-\tfrac{13}{3})^2\right&space;)/3&space;\approx&space;8.2)
 
 There is one more step left in computing the standard deviation. Notice that if the data were all ages measured in months, the units in the variance would be *months-squared*.  We return to reasonable units by taking the square root of the variance.  The number that we get is the standard deviation of the data.
 
