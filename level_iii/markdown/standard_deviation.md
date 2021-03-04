@@ -22,7 +22,7 @@ When the data all falls very close to the mean, the sum of squares is small.  If
 Now divide the sum of squares by the number of values in your data set.  The resulting number is called the ***variance*** of the dataa and gives a measure of the average distance a data point falls from the mean. 
 
 
-![variance of 1, 4, 8](https://latex.codecogs.com/svg.latex?\left&space;((1-\tfrac{11}{3})^2&space;&plus;&space;(4-\tfrac{11}{3})^2&space;&plus;&space;(8-\tfrac{11}{3})^2\right&space;)/3&space;\approx&space;8.7
+![variance of 1, 4, 8](https://latex.codecogs.com/svg.latex?\left&space;((1-\tfrac{11}{3})^2&space;&plus;&space;(4-\tfrac{11}{3})^2&space;&plus;&space;(8-\tfrac{11}{3})^2\right&space;)/3&space;\approx&space;8.7)
 
 There is one more step left in computing the standard deviation. Notice that if the data were all ages measured in months, the units in the variance would be *months-squared*.  We return to reasonable units by taking the square root of the variance.  The number that we get is the standard deviation of the data.
 
