@@ -1,6 +1,24 @@
 # Percentiles and Quartiles (Dividing up the Data)
 
-## Idea of Percentiles and Quartiles
+## What are Percentiles and Quartiles?
+
+Percentiles are a *measure of spread* used to analyze quantitative data. A *measure of spread* is a tool that helps us understand if the data are tightly bunched around a single value, or if they are more spread out.
+
+
+Here is an example of a percentile.  Consider the list below.
+```python
+[1, 1, 4, 5, 11, 15, 21, 45, 45, 67]
+```
+The number 5 is the 30th percentile of this list because 30% of the numbers on the list are less than or equal to 5, and 5 is the smallest number for which this is true.
+
+We have already seen one important percentile:  the median of a set of data is its 50th percentile.
+
+The word *quartile* is reserved for the data values that split the list into four pieces of equal length. More specifically, the first quartile Q1 is the 25th percentile, the second quartile is the median, and the third quartile Q3 is the 75th percentile. 
+
+The easiest way to compute quartiles by hand is to first find the median of the list, and then the first quartile is the median of the numbers below the median, and the third quartile is the median of the numbers above the median.
+
+For the example above the median is 13, the first quartile is `Q1 = 4` and the third quartile is `Q3 = 45`.
+
 
 ## Computing Percentiles and Quartiles in Python
 

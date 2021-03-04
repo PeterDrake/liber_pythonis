@@ -2,6 +2,37 @@
 
 ## About the Standard Deviation
 
+
+## What is the Standard Deviation?
+
+The ***mean*** is one of three ***measures of spread*** that you will study this semester.  It is one way to describe to what degree the data in your data set is clumped around a single value, or spread out over a range of values. 
+
+The standard deviation is only used with quantitative variables.  Roughly speaking the standard deviation tells you how far a data value falls from the mean of your data set, on average. 
+
+## Example
+
+The standard deviation of the numbers 1, 4 and 8 is computed in the following way.  First compute the mean of the data.
+
+![one third of the sum of 1, 4 and 8](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)\approx 4.3)
+
+Now compute the difference between each data value and the mean, square those differences, and then add up the squares.  This quantity is sometimes called the ***sum of squares***.
+
+
+![sum of squares](https://latex.codecogs.com/svg.latex?(1-\tfrac{11}{3})^2 + (4-\tfrac{11}{3})^2  + (8-\tfrac{11}{3})^2\approx 4.3)
+
+When the data all falls very close to the mean, the sum of squares is small.  If there is data very far from the mean, the sum of squares is large.  
+
+Now divide the sum of squares by the number of values in your data set.  The resulting number is called the ***variance*** of the dataa and gives a measure of the average distance a data point falls from the mean. 
+
+
+![sum of squares](https://latex.codecogs.com/svg.latex?\left(1-\tfrac{11}{3})^2 + (4-\tfrac{11}{3})^2  + (8-\tfrac{11}{3})^2\right/3 \approx 4.3)
+
+There is one more step left in computing the standard deviation. Notice that if the data were all ages measured in months, the units in the variance would be *months-squared*.  We return to reasonable units by taking the square root of the variance.  The number that we get is the standard deviation of the data.
+
+
+![sum of squares](https://latex.codecogs.com/svg.latex?\left(1-\tfrac{11}{3})^2 + (4-\tfrac{11}{3})^2  + (8-\tfrac{11}{3})^2\right/3 \approx 4.3)
+
+
 ## Computing the Standard Deviation in Python
 
 Here's the definition, which uses `mean` and (from the `math` library) `sqrt`:
