@@ -1,8 +1,5 @@
 # Standard Deviation (Sophisticated Measure of Spread)
 
-## About the Standard Deviation
-
-
 ## What is the Standard Deviation?
 
 The ***mean*** is one of three ***measures of spread*** that you will study this semester.  It is one way to describe to what degree the data in your data set is clumped around a single value, or spread out over a range of values. 
@@ -13,7 +10,9 @@ The standard deviation is only used with quantitative variables.  Roughly speaki
 
 The standard deviation of the numbers 1, 4 and 8 is computed in the following way.  First compute the mean of the data.
 
-![one third of the sum of 1, 4 and 8](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)\approx 4.3)
+
+![one third of the sum of 1, 4 and 8 is approximately 4.3](https://latex.codecogs.com/svg.latex?\tfrac{1}{3}(1+4+8)\approx%204.3)
+
 
 Now compute the difference between each data value and the mean, square those differences, and then add up the squares.  This quantity is sometimes called the ***sum of squares***.
 
