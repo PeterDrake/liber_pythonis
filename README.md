@@ -61,10 +61,10 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * Uniform Distributions
 * Normal Distributions
 * Skewed Distributions
-* [Testing Membership `in`](level_iv/markdown/in.md)
 * [The Set Data Type `{}`](level_iv/markdown/set.md)
 * [Plotting a Frequency Bar Chart](level_iv/markdown/frequency.md)
 * [Dealing With Missing Data](level_iv/markdown/missing.md)
+* [Testing Membership `in`](level_iv/markdown/in.md)
 * [Combining Lists `zip`](level_iv/markdown/zip.md)
 * [Slicing Sequences `[:]`](level_iv/markdown/slice.md)
 
