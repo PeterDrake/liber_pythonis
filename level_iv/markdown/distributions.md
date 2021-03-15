@@ -2,6 +2,15 @@
 
 ## The Informal Idea
 
+We have used measures of center (mean, median, and mode) and measures of spread (range, IQR, standard deviation) to describe a data set. So we can discuss the typical value of our data as well as how clumped or spread the data is.  However, these summaries still miss important aspects of a set of data.  For example, the data sets
+```python
+data1 = [1,2,3,3,4,5,6,7,8,8,9,10]
+data2 = [1,3,3,5,5,5,6,6,6,7,7,10] 
+```
+both have median 5.5 and range 9.  But when we graph these data sets, we see that they have very different shapes.
+
+
+
 Very informal level, more formal -- function.  INformally speaking the distribution of a set of data is the shape the data makes when you plotl it. Compare two data sets with same median and range but very different shapes.  Pennny ages.
 
 More formally it is a function that... show historgrams converging to a distrution curve.  Penny ages.
