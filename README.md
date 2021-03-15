@@ -58,9 +58,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 
 ### Level IV: Distributions
 
-* Uniform Distributions
-* Normal Distributions
-* Skewed Distributions
+* [Distributions](level_iv/markdown/distributions.md)
 * [The Set Data Type `{}`](level_iv/markdown/set.md)
 * [Plotting a Frequency Bar Chart](level_iv/markdown/frequency.md)
 * [Dealing With Missing Data](level_iv/markdown/missing.md)
