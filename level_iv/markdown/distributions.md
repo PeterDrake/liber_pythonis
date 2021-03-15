@@ -27,10 +27,12 @@ data3 = [1,2,3,4,5,6,7,8,9,10]
 ```
 ![Histogram of data3](../image/example3.png)
 * ***Normal Distributions***
-Here the data takes on a bell shape, with data values clustered near the mean and tapering off as you get far above or far below the mean.  This can occur when the quantity being measured is influenced by many independent things.  For example, the heights of corn plants in a field would likely be normally distributed.  There is variation in genetic tendencies to be tall versus short, and plants will be exposed to a range of sunlight, nutrients, and water.  Data 2 above is normally distributed.
+Here the data takes on a bell shape, with data values clustered near the mean and tapering off as you get far above or far below the mean.  This can occur when the quantity being measured is influenced by many independent things.  For example, the heights of corn plants in a field would likely be normally distributed.  There is variation in genetic tendencies to be tall versus short, and plants will be exposed to a range of sunlight, nutrients, and water.  The data in the list```data2``` above is normally distributed.
+  
 
 * ***Skewed Distributions***
-A distribution is skewed when many data values fall on either the high or the low end of the range of data values, while relatively few data values appear at the other end of the range of values.  Data can be skewed in the presence of a positive feedback loop, for example. In this situation, the presence of one extreme outcome would encourage more outcomes at the same extreme, eventually yielding data that clusters at that extreme.  This happens when fruit on a tree ripens, for example.  The presence of one ripe fruit causes its neighbors to ripen, then their neighbors ripen and then all of a sudden all of the fruit on the tree is ripe. The data in the list```data4``` plotted below are called ***skewed right*** because the thin tail of the plot is to the right.  When the thin tail of the plot is to the left, the data is called ***skewed left***.
+A distribution is skewed when many data values fall on either the high or the low end of the range of data values, while relatively few data values appear at the other end of the range of values.  Data can be skewed in the presence of a positive feedback loop, for example. In this situation, the presence of one extreme outcome would encourage more outcomes at the same extreme, eventually yielding data that clusters at that extreme.  This happens when fruit on a tree ripens, for example.  The presence of one ripe fruit causes its neighbors to ripen, then their neighbors ripen and then all of a sudden all of the fruit on the tree is ripe.
+The data in the list```data4``` plotted below are called ***skewed right*** because the thin tail of the plot is to the right.  When the thin tail of the plot is to the left, the data is called ***skewed left***.
   ```python
   data4 = [1,1,1,1,2,2,2,3,3,4,6,8,10]
 
