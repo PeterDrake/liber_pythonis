@@ -43,4 +43,4 @@ The data in the list```data4``` plotted below are called ***skewed right*** beca
 
 More formally, a distribution is a mathematical function that models the shape of your data. In the image below, for example, the purple curve is graph of the mathematical function that models the shape of the histogram.  The purple curve is a ***normal distribution curve***.  These will be discussed more in Level IV.
 
-![Historgram of normal data with normal curve](../image/normal_curve.png)
+<img src="../image/normal_curve.png" alt="Histogram of normal data with normal curve]" width="300">
