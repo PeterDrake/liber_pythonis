@@ -5,9 +5,9 @@ An important application of statistics is to use a sample to understand some fea
 If you are rusty on the statistical terms *observational unit* and *variable* please re-read the [**Observational Units and Variables**](https://github.com/PeterDrake/liber_pythonis/blob/master/level_i/markdown/quant_cat.md) page in these notes.
 
 # Definitions
-* A ***population*** is the entire group of observational units of interest.
+* A ***population*** is the entire group of observational units of interest.  (see image below)
 * A ***parameter*** is the value of a variable over an entire population.
-* A ***sample*** is some subset of the population.
+* A ***sample*** is some subset of the population.  (see image below)
 * A ***statistic*** is the value of a variable over a sample.
 
 # Example
