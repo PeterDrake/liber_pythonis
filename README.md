@@ -69,7 +69,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 ### Level V: Populations, Samples, and the Central Limit Theorem
 
 * Proportion
-* Populations and Samples
+* [Populations and Samples] (level_v/markdown/popsamples.md)
 * Parameters and Statistics
 * Central Limit Theorem for Proportions
 * Confidence Interval
