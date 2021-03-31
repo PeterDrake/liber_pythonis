@@ -10,4 +10,9 @@ Two $100 prizes will be given in a contest.  Just this fact alone does not let u
 
 In Python we can use `zip` to compute the proportion between two lists.
 
-`python ji `
+`python
+a = [4,5,6]
+b = [7,8,9]
+pairs = list(zip(a,b))
+proportion_a_to_b = [a/b for a,b in pairs]
+`
