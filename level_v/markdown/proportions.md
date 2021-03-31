@@ -10,4 +10,4 @@ Two $100 prizes will be given in a contest.  Just this fact alone does not let u
 
 In Python we can use `zip` to compute the proportion between two lists.
 
-`python ji '
+`python ji `
