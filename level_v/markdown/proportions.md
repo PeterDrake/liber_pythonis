@@ -8,10 +8,11 @@ Two $100 prizes will be given in a contest.  Just this fact alone does not let u
 
 # Coding Proportions
 
-In Python we can use `zip` to compute the proportion between two lists. The code below outputs the list `[0.333333,0.5,2.0]`
+In Python we can use `zip` and a list comprehension to compute the proportion between two lists. The code below outputs the list `[0.333333,0.5,2.0]`
 
-`a = [2,5,6]
+```python
+a = [2,5,6]
 b = [6,10,3]
 pairs = list(zip(a,b))
 proportions_a_to_b = [a/b for a,b in pairs]
-`
+```
