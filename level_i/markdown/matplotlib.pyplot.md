@@ -80,6 +80,11 @@ To plot multiple lines on the same graph, just call `plt.plot` multiple times.
 If you want to create multiple independent graphs in the same program, call `plt.clf()` after displaying one graph but
 before creating the next one.
 
+## Explorations
+
+1. Try the following Parsons puzzle, which gives you the code but asks you to arrange it in the correct order. This should be more relaxing than starting from a blank page. After you've arranged the pieces, click on the "Get feedback" button to see how you did; if everything turns green, you've solved the puzzle. Try as many times as you like!
+   1. [Plot parabolic data.](https://parsons.herokuapp.com/puzzle/4cefcc5125c34a609822cfbdb3a2f7b9)
+
 ## Further Reading
 
 [`matplotlib` gallery, with many examples](https://matplotlib.org/3.1.1/gallery/index.html)
