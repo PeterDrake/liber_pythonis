@@ -45,7 +45,7 @@ A list is a sequence of values of any type, but a string is specifically a seque
    ```python
    'na' * 16 + ' Batman!'
    ```
-1. 1. Try the following Parsons puzzle, which gives you the code but asks you to arrange it in the correct order. This should be more relaxing than starting from a blank page. After you've arranged the pieces, click on the "Get feedback" button to see how you did. Try as many times as you like!
+1. Try the following Parsons puzzle, which gives you the code but asks you to arrange it in the correct order. This should be more relaxing than starting from a blank page. After you've arranged the pieces, click on the "Get feedback" button to see how you did. Try as many times as you like!
    1. [Greet someone by name.](https://parsons.herokuapp.com/puzzle/ef341f0658e24c358a4b189b1730319b)
 1. If you define `x = 3`, what is the value of `x`? What is the value of `'x'`?
 1. Can you make a list of strings?
