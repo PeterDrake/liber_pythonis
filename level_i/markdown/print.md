@@ -20,4 +20,6 @@ If you run this program, it will print `16.0` in the interactive console.
 
 ## Explorations
 
+1. Try the following Parsons puzzle, which gives you the code but asks you to arrange it in the correct order. This should be more relaxing than starting from a blank page. After you've arranged the pieces, click on the "Get feedback" button to see how you did. Try as many times as you like!
+   1. [Print the number of seconds in a day.](https://parsons.herokuapp.com/puzzle/b37cced5c3194a578d3e5844f5f9c7f2)
 1. Write a program to convert pounds to kilograms using the formula ![k = p times 0.45](https://latex.codecogs.com/svg.latex?k=p\times0.45).
