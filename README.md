@@ -70,7 +70,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 
 * [Proportions](level_v/markdown/proportions.md)
 * [Populations and Samples](level_v/markdown/pop_samples.md)
-* Parameters and Statistics
+* The Empirical Rule for Normal Distributions
 * Central Limit Theorem for Proportions
 * Confidence Interval
 
