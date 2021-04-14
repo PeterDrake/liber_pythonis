@@ -34,7 +34,7 @@ Data that is normally distributed follows the following pattern:
 * about 99.7% of the data falls at most three standard deviations form the mean.
 ```
 
- The figure below illustrates the Empirical Rule.  
+ The figure below illustrates the Empirical Rule.  Also, in the first graph in the figure, note that 32% of the data falls greater than one standard deviation from the mean. The region shaded in green represents all data values that are more than 1 standard deviation above the mean, which is 16% of the data.
 
 ![Normal curve with areas shaded](../images/empirical_rule.png)
 
