@@ -23,3 +23,8 @@ You can also identify the standard deviation of a normal curve just by looking a
 ## The Empirical Rule
 
 Given a normal curve the observations above allow you to mark the mean on the horizontal axis of a normal curve, as well as points that are one standard deviation above and one standard deviation below the mean.  In fact we can also mark points two and three standard deviations above and below the mean.  In other words, there is a natural way to scale the horizontal axis of a normal curve.
+
+Even better, this scaling allows us to make conclusions about data that we are modeling with a normal curve.  These conclusions are made using the "Empirical Rule" which is stated below:
+
+``The Empirical Rule
+hi cat dog rat''
