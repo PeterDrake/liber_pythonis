@@ -26,5 +26,5 @@ Given a normal curve the observations above allow you to mark the mean on the ho
 
 Even better, this scaling allows us to make conclusions about data that we are modeling with a normal curve.  These conclusions are made using the "Empirical Rule" which is stated below:
 
-``The Empirical Rule
-hi cat dog rat''
+`The Empirical Rule
+hi cat dog rat`
