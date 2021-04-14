@@ -26,5 +26,10 @@ Given a normal curve the observations above allow you to mark the mean on the ho
 
 Even better, this scaling allows us to make conclusions about data that we are modeling with a normal curve.  These conclusions are made using the "Empirical Rule" which is stated below:
 
-`The Empirical Rule
-hi cat dog rat`
+```
+The Empirical Rule
+Data that is normally distributed follows the following patterns
+* about 68% of the data falls at most one standard deviation from the mean,
+* about 95% of the data falls at most two standard deivations from the mean,
+* about 99.7% of the data falls at most three standard deviations form the mean.
+```
