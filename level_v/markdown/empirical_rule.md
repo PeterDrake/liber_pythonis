@@ -7,3 +7,5 @@ Normal distributions are modeled by bell-shaped curves called ***normal curves**
 </blockquote>
 
 As seen in the figure below, different choices of mean &mu; and standard deviation &sigma; give normal curves with different shapes.  However both of these curves are still normal curves.
+
+![Diagram showing two normal curves with different means and standard deviations](../images/normal_curves.png)
