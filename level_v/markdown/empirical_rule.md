@@ -36,6 +36,6 @@ Data that is normally distributed follows the pattern below:
 
 ![Normal curve with areas shaded](../images/empirical_rule.png)
 
-## Exploration
+## Explorations
 
-The mean height of men in the United States is 5 feet 9 inches (175.4 cm).  The standard deviation of these heights is 3 inches (8 cm).  Assuming these heights are normally distributed, what proportion of men are 6 feet or taller?
+1. The mean height of men in the United States is 5 feet 9 inches (175.4 cm).  The standard deviation of these heights is 3 inches (8 cm).  Assuming these heights are normally distributed, what proportion of men are 6 feet or taller?
