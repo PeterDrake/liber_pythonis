@@ -28,8 +28,13 @@ Even better, this scaling allows us to make conclusions about data that we are m
 
 ```
 The Empirical Rule
-Data that is normally distributed follows the following patterns
+Data that is normally distributed follows the following pattern:
 * about 68% of the data falls at most one standard deviation from the mean,
 * about 95% of the data falls at most two standard deivations from the mean,
 * about 99.7% of the data falls at most three standard deviations form the mean.
 ```
+
+ The figure below illustrates the Empirical Rule.  
+
+![Normal curve with areas shaded](../images/empirical_rule.png)
+
