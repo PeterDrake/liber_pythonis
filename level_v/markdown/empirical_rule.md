@@ -1,4 +1,4 @@
-# More About Normal Distributions
+# The Empirical Rule for Normal Distributions
 
 ## The Family of Normal Curves
 
