@@ -21,7 +21,7 @@ Here are the results of the survey, which are completely made up:
 | 9      | 524              | 0.524                                 |
 | 10     | 475              | 0.475                                 |
 
-We then make a dot plot of the proportions associated to each sample.  This plot is given below.
+We then make a dot plot of the proportions associated to each sample.  This plot is given below.  A single dot in this dot plot represents the proportion of people in one of the ten samples that responded they would definitely get or have already gotten a COVID vaccine.  For example, the dot highlighted in green represents the 0.412 in the proportion column of the table above.  Since each dot in the dot plot records a *sample proportion* we call this plot an (almost) *sampling distribution*.  (For why *almost* is included, just keep reading.
 
 ![Dotplot of sample porportions](../images/dot_plot.png)
 
