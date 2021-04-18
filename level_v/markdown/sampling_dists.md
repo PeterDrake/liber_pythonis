@@ -32,7 +32,7 @@ To get an *actual* sampling distribution, imagine taking every possible simple r
 
 ![Plot of normal curve modeling sample proportions](../images/sampling_dist.png)
 
-## Key features of the example sampling distribution drawn above:
+Key features of the example sampling distribution drawn above:
 * the observational unit is a sample of 1000 voters,
 * the variable being plotted is the sample proportion, p^, which is a statistic
 * proportions are plotted for *all possible* samples.
