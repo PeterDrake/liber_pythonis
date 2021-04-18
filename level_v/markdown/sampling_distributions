@@ -22,3 +22,8 @@ Here are the results of the survey, which are completely made up:
 | 10     | 475              | 0.475                                 |
 
 We then make a dot plot of the proportions associated to each sample.  This plot is given below.
+
+![Dotplot of sample porportions](../images/dot_plot.png)
+
+
+![Plot of normal curve modeling sample proportions](../images/sampling_dist.png)
