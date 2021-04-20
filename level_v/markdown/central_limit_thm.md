@@ -19,7 +19,7 @@ We illustrate the Central Limit Theorem with the image below, keeping in mind th
 
 ## Exploration
 
-The purpose of the practice problem below is to prepare you to understand how the Central Limit Theorem is used to define a 95% confidence interval. The problem is unrealistic because we assume we know the parameter proportion.  However it's a good middle step to get you to the much more practical idea of confidence intervals.
+The purpose of the practice problems below is to prepare you to understand how the Central Limit Theorem is used to define a 95% confidence interval. The problem is unrealistic because we assume we know the parameter proportion.  However it's a good middle step to get you to the much more practical idea of confidence intervals.
 
 1. Suppose we happen to know 62% of Oregonians plan to vote for [Tan France](https://en.wikipedia.org/wiki/Tan_France) to be the new governor of Oregon.  (So we know the parameter proportion P is equal to 0.62.) Please answer the questions below:
 
@@ -27,8 +27,9 @@ The purpose of the practice problem below is to prepare you to understand how th
   
   b. Draw a sketch of this sampling distribution by drawing a normal curve with the correct mean and standard deviation.  Scale the horizonal axis accordingly with the mean, and the numbers one standard deviation above and one standard deviation below the mean.
   
-  c. From your work above, find the percent of 100 person simple randomm samples that have 52% or fewer France supporters.
+  c. From your work above, find the percent of 100 person simple random samples that have 52% or fewer France supporters.
   
   **Solution:** See the image below for the solution to Exploration problem #1.
+  
   ![Solution to Exploration problem #1](../images/clt_solution.png)
 
