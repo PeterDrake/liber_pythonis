@@ -32,4 +32,6 @@ The purpose of the practice problems below is to prepare you to understand how t
   **Solution:** See the image below for the solution to Exploration problem #1.
   
   ![Solution to Exploration problem #1](../images/clt_solution.png)
+  
+  2. Suppose we happen to know that 72% of Lewis & Clark students are play the game *Among Us*.  Please draw a sketch of the sampling distribution of the proportion of *Among Us* players in many, many simple random samples of 50 Lewis & Clark students.  Accurately scale the horizontal axis of this sketch with five numbers.  What proportion of 50-student samples will have 66% or more *Among Us* players?
 
