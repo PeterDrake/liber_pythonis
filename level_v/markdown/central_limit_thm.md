@@ -7,4 +7,4 @@
 
 ## The key ideas of this theorem (in pictures)
 
-![Diagram showing sample inside of population](../images/clt_motivationn.png)
+![Diagram showing sampling distributions as sample size increases](../images/clt_motivation.png)
