@@ -72,7 +72,7 @@ more emphasis on using a minimal set of tools to make the material more accessib
 * [Populations and Samples](level_v/markdown/pop_samples.md)
 * [The Empirical Rule for Normal Distributions](level_v/markdown/empirical_rule.md)
 * [Samping Distributions](level_v/markdown/sampling_dists.md)
-* The Central Limit Theorem for Proportions
+* [The Central Limit Theorem for Proportions](level_v/markdown/central_limit_thm.md)
 * 95% Confidence Intervals
 
 ### Level VI: Relationships Between Variables
